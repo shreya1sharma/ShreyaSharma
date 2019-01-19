@@ -14,7 +14,7 @@ Deep Learning | Machine Learning | Image Processing | Computer Vision | Geospati
 
 **Post-graduate Researcher and Teaching Assistant, IIT Bombay, India [2014-2016]**
 
-* Conducted Masters research work on Hyperspectral image super-resolution. Simultaneously, mentored 1st year M.Tech students in efficient implementation of course projects in image processing and remote sensing.
+* Conducted research work on Hyperspectral image super-resolution. Simultaneously, mentored 1st year M.Tech students in efficient implementation of course projects in image processing and remote sensing.
 
 ### Publications and Patents
 ----------------
@@ -36,39 +36,31 @@ Deep Learning | Machine Learning | Image Processing | Computer Vision | Geospati
 * College of Technology, GBPUAT, Pantnager, India [2010-2014]
 	* B. Tech in Electrical Engineering, GPA: 8.25/10
 
+----------
 ### Projects
 
 1. **Ship Classification for Maritime Surveillance using Synthetic Aperture Radar (SAR) images**
 	* Developed a novel ship classification method that combines geometry information with image features into a convolutional neural network (CNN) to achieve robust feature representation of ships.
-	* Extracted geometry feature using metadata of SAR images and applied one-hot-encoding for training CNN.
-	* Achieved 11% improvement in classification accuracy and 25% reduction in training data requirement as compared to the conventional methods that ignore geometry information.
-
+	
 2. **Comparative analysis of feature extraction approaches for moderate resolution SAR images**
-	* Surveyed 50+ research papers within 2 weeks to extract representative feature extraction approaches.
 	* Evaluated hand-crafted features, Principal Component Analysis (PCA) and autoencoder among major approaches based on accuracy, ship length and speed for classifying ships in 6 m spatial resolution images.
-	* Demonstrated that autoencoder outperforms in classification accuracy by 7.5% relatively and can better handle small length (< 100 m) and slow ships (< 10 kn), thereby selected as a baseline for future research.
-
+	
 3. **Hyperspectral Image Super-resolution**
-	* Developed a super-resolution technique to improve classification of mixed pixels in hypersepectral images. 
-	* Applied Ant Colony Optimization to seperate spectral features of different classes within each mixed pixel. 
-	* Enhanced classification accuracy by 21% over baseline and obtained visually high-resolution classified
+	* Developed a super-resolution technique to improve classification of mixed pixels in hyperspectral images. 
 
 4. **Unsupervised Change Detection using Deep Learning**
 	* Implemented unsupervised change detection for multitemporal images employing Sparse Autoencoder for feature extraction, Fuzzy C-Means for clustering and CNN for classification, achieving 98% accuracy.
 
 5. **Feature Extraction Using Active Contour Models** 
-	* Reviewed various feature extraction techniques for colour, texture and shape-based features in an image.
-	* Implemented Snakes Algorithm in MATLAB for road and coastline detection in satellite images.
+	* Reviewed various feature extraction techniques and implemented Snakes Algorithm in MATLAB for road and coastline detection in satellite images.
 
 6. **Shape detection using Hit and Miss Transform** 	
 	* Implemented a Pattern Recognition Technique for detecting geometrical shapes in an image.
-	* Created Graphical User Interface using MATLAB GUI for displaying and counting the desired shape.
-
+	
 7. **Dimensionality Reduction of Hyperspectral Images**
 	* Executed Minimum Noise Fraction (MNF) algorithm for optimal feature extraction and noise decorrelation.
 
 8. **Optimal Bike Path Development and Shortest Route Detection** 
-	* Developed a digital road map of IIT Bombay with important stops and frequently travelled paths in QGIS.
 	* Implemented Dijkstra Algorithm to find shortest route between two stations by running a query.
 
 ### Skills

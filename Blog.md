@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+title: Notes
+permalink: /notes/
 ---
 
 This is the blog page.
