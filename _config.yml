@@ -44,4 +44,6 @@ plugins:
 #   - vendor/ruby/
 
 collections:
- - cookies
+ cookies:
+    output: true
+        permalink: /cookies/:path/
