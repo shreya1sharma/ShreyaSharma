@@ -14,14 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Shreya Sharma
-email: shreya.sharma1020@gmail.com
+
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A website by Shreya Sharma for blogging her life experiences, educational tips and career journey.
 baseurl: "/ShreyaSharma" # the subpath of your site, e.g. /blog
 url: "http://shreya1sharma.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
+
+email: shreya.sharma1020@gmail.com
 github_username:  shreya1sharma
 linkedin_username: shreya-sharma-profile
 
@@ -43,7 +43,3 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-collections:
- cookies:
-    output: true
-        permalink: /cookies/:path/

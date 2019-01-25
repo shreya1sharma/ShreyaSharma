@@ -4,16 +4,28 @@ title: Notes
 permalink: /notes/
 ---
 
-This is the blog page.
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Collection of my short-notes on various topics. [to be updated]
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# Data Science
+
+------
+# Machine Learning
+
+------
+
+# Deep Learning
+
+-----
+# Technical Writing
+
+----
+# SAR Image Analysis
+
+-----
+# Probability and Statistics
+
+----
+# Programming
 
 
-[jekyll-organization]: https://github.com/jekyll
-
----
+----

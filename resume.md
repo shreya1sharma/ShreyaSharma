@@ -36,8 +36,9 @@ Deep Learning | Machine Learning | Image Processing | Computer Vision | Geospati
 * College of Technology, GBPUAT, Pantnager, India [2010-2014]
 	* B. Tech in Electrical Engineering, GPA: 8.25/10
 
-----------
+
 ### Projects
+--------------
 
 1. **Ship Classification for Maritime Surveillance using Synthetic Aperture Radar (SAR) images**
 	* Developed a novel ship classification method that combines geometry information with image features into a convolutional neural network (CNN) to achieve robust feature representation of ships.

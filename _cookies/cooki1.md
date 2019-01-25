@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Notes
-permalink: /notes/
+title: cooki1
+permalink: /cookies/
 ---
 
 This is the blog page.
