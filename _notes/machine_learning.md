@@ -1,7 +1,7 @@
 ---
 layout: page
-title: cooki1
-permalink: /cookies/
+title: Machine Learning
+
 ---
 
 This is the blog page.

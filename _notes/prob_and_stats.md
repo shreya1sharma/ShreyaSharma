@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Notes
-permalink: /notes/
+layout: note
+title: Probability and Statistics
+
 ---
 
 This is the blog page.

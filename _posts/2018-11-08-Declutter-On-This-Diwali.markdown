@@ -7,6 +7,8 @@ categories:
 
 Diwali is a magnificent festival of lights celebrated all over India with great faith and enthusiasm. It is an occasion when people meet and greet, markets are full of crackers and God idols, kitchens spread beautiful aroma of sweets and happiness can be felt all around. On Diwali, we engage in decorating our homes, buy new clothes and pray for blessings to the Almighty. The festive vibe is so fresh and energetic that you can feel it at every home, street and city. And I must say that if you get a chance to fly over India during Diwali, trust me, you will witness one of the most amazing views of the planet. Just like the sky full of stars :D
 
+![image]({{site.url}}{{site.baseurl}}/assets/images/diwali.jpg)
+
 Living abroad since two years, this is one thing which I really miss. However, I try my best to do things that make me feel as excited as I would have felt at home. So, what is the special thing I did on this Diwali? Well, this Diwali I planned to declutter my house and my mind. I have learnt an important life-fact that disciplined decluttering is really crucial to make our lives organized and our minds peaceful so that we can have a clear view of what we appreciate and want in our life. It’s essence is beautifully quoted by a Japanese organizing expert, Marie Kondo in her best-selling book ‘The Life-Changing Magic of Tidying Up’ as,
 
 “To truly cherish the things that are important to you, you must first discard those that have outlived their purpose.”

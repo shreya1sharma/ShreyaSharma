@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Feel Maths, Don't Just Cram It!"
-date:   2018-12-02 00:20:26 +0900
+date:   2018-10-28 00:20:26 +0900
 categories: 
 ---
 

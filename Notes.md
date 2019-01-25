@@ -1,31 +1,13 @@
 ---
 layout: page
 title: Notes
-permalink: /notes/
 ---
-
 Collection of my short-notes on various topics. [to be updated]
+{% for notes in site.notes %}
 
-# Data Science
-
-------
-# Machine Learning
-
-------
-
-# Deep Learning
-
------
-# Technical Writing
-
-----
-# SAR Image Analysis
-
------
-# Probability and Statistics
-
-----
-# Programming
+<a href="{{ notes.url | prepend: site.baseurl }}">
+        {{ notes.title }}
+</a>
 
 
-----
+{% endfor %}    

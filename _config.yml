@@ -43,3 +43,10 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+collections:
+  notes:
+    output: true
+  hobbies:
+    output: true
+    
+    
