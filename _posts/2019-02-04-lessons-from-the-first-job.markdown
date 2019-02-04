@@ -5,7 +5,7 @@ date:   2019-02-04 00:20:26 +0900
 categories: 
 ---
 
-On 3rd October 2018, I completed two years in my first job as a researcher at NEC Corporation Japan. Super-excited, energetic, new dreams and a little anxiety I moved to Japan. Over this transformational period, I learnt very valuable and practical lessons related to professional life through my experiences, colleagues, friends and self-analysis. In this post, I want to summarize of all those key lessons which I truly admire and want to keep in my attitude always.
+On 3rd October 2018, I completed two years in my first job as a researcher at NEC Corporation Japan. Super-excited and energetic with new dreams and a little anxiety I moved to Japan. Over this transformational period, I learnt very valuable and practical lessons related to professional life through my experiences, colleagues, friends and self-analysis. In this post, I want to summarize of all those key lessons which I truly admire and want to keep in my attitude always.
 
 1. Never show your weakness in office (atleast not verbally). Instead highlight your strengths in all the assigned tasks.
 2. Try to make good and genuine friends but do not indulge in flattering.
