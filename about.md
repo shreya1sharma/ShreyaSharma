@@ -13,10 +13,9 @@ Currently, I am working at Data Science Research Laboratories, [NEC Corporation 
 We develop machine learning algorithms to process massive satellite images of Earth and discover useful insights.
 
 
-Over the years, I have developed interests in physics, probability, statistics, image processing, machine learning, electrical networks and deep learning. I enjoy learning new technologies and aspire to become a great coder.
+Over the years, I have developed technical interests in physics, image processing, machine learning and deep learning. I enjoy learning new technologies and aspire to become a great coder.
 
-When not making travel itineraries or cracking jokes at dead serious situations, I love getting involved in three types of activities - reading, creating and sharing.
-And that's the inspiration behind this website! Through this website, my aim is to share what I read and create on a day-to-day basis.
+When not making travel itineraries or cracking jokes at dead serious situations, I love getting involved in three types of activities - reading, creating and sharing. I am a strong believer of team work and inclusive growth, thus currently an active member of [Machine Learning Tokyo](https://www.meetup.com/Machine-Learning-Tokyo/) and [Hands On Tokyo](https://www.meetup.com/Machine-Learning-Tokyo/). Through this website, my aim is to share what I read and create on a day-to-day basis and get in touch with like-minded people.
 
 If you have any question or want to reach out, feel free to shoot me an email or connect via LinkedIn. I’m always open to meeting interesting people.
 
