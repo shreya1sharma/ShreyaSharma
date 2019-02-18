@@ -27,3 +27,41 @@ This helps you out because it:
 7. Read textbooks and do courses
 8. Follow Twitter to stay updated
 9. ML is just a tool but an overhyped tool, don't overrely on it and assume that it works under all situations and is always correct
+
+[Kaggle Grandmaster SRK’s Journey and Advice for Data Science Competitions](https://www.analyticsvidhya.com/blog/2019/01/datahack-radio-tips-crack-data-science-competitions-kaggle-grandmaster/)
+1.  __Understanding the problem__ – It is really important to have a thorough understanding of the problem that we are trying to solve. Only after we’ve understood the problem clearly, we can derive suitable insights from data to tackle the problem and obtain good results. This applies to real life as well.
+
+2. __Structured Thinking__ – It’s a unique way of thinking through the problems. Being a data scientist, one needs to be more structured in his/her thinking in order to obtain good results. Else, we might end up shooting in the dark as the number of options are way too many in most of the cases.
+
+3. __Effective communication of results__ – Effective communication of derived results is as important as performing the data analysis. At times, it becomes difficult to communicate the nuances of final analysis in simple language to business people. As a Data Scientist, one must learn the art of effective communication.
+
+**Advice to Aspiring Data Scientists**
+1. Get Practical Experience: 
+	- Knowing the theory and intuition behind algorithms is good, but getting hands-on practical experience is where the goldmine lies. Try to get your hands on a real-world dataset. See what you can wring out of it. This will be invaluable when you are sitting in an interview setting
+2. Participate in Hackathons: 
+	- Participating in competitions helps you understand where you stand among the community
+3. Try to Frame a Problem Statement on your own: 
+	- I really liked this advice. We don’t get industry experience in a hackathon setting. Instead, you can try to come up with a problem that you feel might help someone. Then build on that by collecting data around it. Solve the problem and showcase it via blogs or GitHub. It’s hard work but that translates to results sooner than you might expect
+4. Pick a Domain: 
+	- This is critical. So many aspiring data scientists aimlessly wander about applying to jobs in domains where they don’t hold any experience (or even interest). Pick a domain that is of interest to you and try to find datasets to work on
+
+[13 Common Mistakes Amateur Data Scientists Make and How to Avoid Them?](https://www.analyticsvidhya.com/blog/2018/07/13-common-mistakes-aspiring-fresher-data-scientists-make-how-to-avoid-them/)
+1. Learning Theoretical Concepts without Applying Them
+2. Heading Straight for Machine Learning Techniques without Learning the Prerequisites
+3. Relying Solely on Certifications and Degrees
+4. Assuming that what you see in ML Competitions is what Real-Life Jobs are Like
+5. Focusing on Model Accuracy over Applicability and Interpretability in the Domain
+6. Using too many Data Science Terms in your Resume
+7. Giving Tools and Libraries Precedence over the Business Problem (understand the basic challenges in the industry you are applying data science to)
+8. Not Spending Enough Time on Exploring and Visualizing the Data (Curiosity)
+9. Not Having a Structured Approach to Problem Solving
+10. Trying to Learn Multiple Tools at Once
+11. Not Studying in a Consistent Manner
+12. Shying Away from Discussions and Competitions
+13. Not working on Communication Skills
+
+[Reproducible research best practices ](https://www.kaggle.com/rtatman/reproducible-research-best-practices-jupytercon?utm_medium=blog&utm_source=wordpress&utm_campaign=reproducibility-guide)
+
+[How to reproduce a machine learning project](http://blog.kaggle.com/2018/09/19/help-i-cant-reproduce-a-machine-learning-project/?utm_campaign=Artificial%2BIntelligence%2BWeekly&utm_medium=rss&utm_source=Artificial_Intelligence_Weekly_87)
+
+[Cookie Cutter: Data Science Project Structure](https://drivendata.github.io/cookiecutter-data-science/)

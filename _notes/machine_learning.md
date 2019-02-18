@@ -1,19 +1,12 @@
 ---
 layout : page
-title: Machine Learning
+title: Machine Learning/Deep Learning
 
 ---
 
-This is the blog page.
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+**Important Articles**
+1. [Machine learning glossary by Google](https://developers.google.com/machine-learning/glossary/)
+2. [Essentials of Machine Learning Algorithms](https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/?utm_source=twitter.com)
+3. [Deep learning course summary by analytics vidya](https://www.analyticsvidhya.com/blog/2018/11/neural-networks-hyperparameter-tuning-regularization-deeplearning/)
 
 ---
