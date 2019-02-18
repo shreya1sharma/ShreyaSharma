@@ -23,7 +23,7 @@ On 3rd October 2018, I completed two years in my first job as a researcher at NE
 14. Enjoy the process and not just the achieved goal. Focus on everyday growth. Celebrate small successes and retrospect briefly on mistakes. But do not dwell too much and be a little detached with success and failures as these are temporary. Just keep on moving forward.
 15. Know the responsibilities of your job and important of your work. Define your goals very clearly. Always ask 'how can you step up the ladder?'
 16. Do not react to people and situations but choose to respond. Remember it is completely your choice that how you project yourself to the world. Nobody can make you feel important or horrible unless you allow.
-17. Leave office on time and have a great lofe outside office as well. Explore your hobbies, join meetups, talk to family/friends, study something different. Don't be so exhausted in work that you don't enjoy your life. After all you are not born to just work but also to have fun. Be balanced!
+17. Leave office on time and have a great life outside office as well. Explore your hobbies, join meetups, talk to family/friends, study something different. Don't be so exhausted in work that you don't enjoy your life. After all you are not born to just work but also to have fun. Be balanced!
 18. Use dedicated time slots for each activity to enhance productivity. Focus is the key. Club similar tasks together and finish them at one go.
 19. Minimize your everyday decision making. Set separate time slots for making decisions or thinking deeper.
 20. Be very clear about 'So what' before starting any work. Define goal (in terms of time/performance) before starting any work.
