@@ -18,7 +18,7 @@ A simple 4-step framework that gives a logical structure to your thoughts and ma
 
 
 
-![image]({{site.url}}{{site.baseurl}}/assets/images/blog_4.PNG){:style="float:left;margin-left: 100px"}
+![image]({{site.url}}{{site.baseurl}}/assets/images/blog_4.png){:style="float:left;margin-left: 100px"}
 
 <br/>
 <br/>
@@ -41,7 +41,7 @@ Finally, now when you know intuitively how to reach the goal, its time to implem
 
 Selecting the right framework is the first step, but unless your practise that framework on a lot of problems your thinking will not improve. So here I give some tips that you can follow while practising.
 
-![image]({{site.url}}{{site.baseurl}}/assets/images/blog_4_2.PNG)
+![image]({{site.url}}{{site.baseurl}}/assets/images/blog_4_2.png)
 
 1. Go from a simple approach to a complex approach. Remember that thinking naive is thinking right. 
 
