@@ -18,8 +18,10 @@ A simple 4-step framework that gives a logical structure to your thoughts and ma
 
 
 
-![image]({{site.url}}{{site.baseurl}}/assets/images/blog_4.PNG){: style="float"}
+![image]({{site.url}}{{site.baseurl}}/assets/images/blog_4.PNG){:style="float:left;margin-left: 100px"}
 
+<br/>
+<br/>
 
 # 1. Understand the problem
 The first thing which you must do when approaching a problem is to understand it thoroughly. Understand the inputs and outputs clearly. Ask a lot of questions to identify the scope of the problem and the assumptions you are making. Explain your understanding to your friend or just speak that out to yourself in plain English to clarify your thinking. Doodle a diagram to visualize the problem and the desired solution. Think of an example that perfectly demonstrates the problem. This step is extremely important to develop right thinking. As a byproduct, you will also develop critical thinking skill. 
