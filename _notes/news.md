@@ -15,6 +15,6 @@ Focus areas: agriculture, climate change, biodiversity and water.\\
 [AI for Earth](https://www.microsoft.com/en-us/ai/ai-for-earth?activetab=pivot1%3aprimaryr6)\\
 [Research in Focus](https://www.youtube.com/watch?v=rj0D_Fz6r6gxs)
 
-2. **National Programme For AI** [01/Feb/19]\\
+2. **National Programme For AI** [1 Feb 2019]\\
 Interim fiscal budget announced plan to develop a national AI portal and center to support AI research, skill-development and startups in India.\\
 [India to develop a national AI portal and center](https://www.geospatialworld.net/blogs/indian-finance-minister-national-ai-portal/)
