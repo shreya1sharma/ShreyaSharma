@@ -35,6 +35,7 @@ If there is one thing which is the problem of the entire millennial generation, 
 # 6. Time is never less, change your mindset
 Finally, sharing  my last learning - time is never less for anything. I do not know how others think about time but I used to imagine it like sand in a timer glass. I was afraid that I had to do all things as quickly as possible before all the sand slips away. This mindset is may be a result of the environment we live in today where everything is instant and nobody has patience. But whatever it is, it is not the right way to deal with time. It degrades the quality of your life and your work. It makes you feel like a victim rather than a master. This realization about time had the most impact in my life.  I have now changed my belief that the sand is finitely infinite because the timer-glass that can always be turned upside down to restart the process. I enjoy conquering deadlines even more because I no longer fear the deadlines.
 
+Last but not the least, **ALWAYS KEEP A JOURNAL AND A CALENDAR** for time-management.
 
 So folks, that is all I wanted to share about time management in this blog post. I hope some of you could resonate with me and learnt some ways to deal with time in a better way. I will keep on sharing my learnings with you all as and when I get time :D 
 
