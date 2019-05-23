@@ -52,6 +52,7 @@ So I have decided to do a mental dump. In this post, I am making a checklist of 
 - Self-care
 - Holidays planning
 - Occasions and social things
+- Daily morning and evening routines
 
 --------------------------------------------------
 ## 2. Professional
@@ -66,6 +67,7 @@ So I have decided to do a mental dump. In this post, I am making a checklist of 
 - Projects stuff- code/data/results
 - Presentations
 - Patents/Papers/Reports 
+- Discussion meetings
 
 ### Learnings
 - Management (diary)
