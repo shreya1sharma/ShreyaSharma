@@ -17,7 +17,7 @@ On 3rd October 2018, I completed two years in my first job as a researcher at NE
 8. Health first! Stop outsourcing your happiness to people and situations.
 9. Keep your workplace organized and clean- files, codes, shared information, important documents, office memos. Create a logical structure of your folders and files.
 10. Manage your time well- project timeline, reply to colleagues, meetings, decision-making etc.
-11. Dedicate some time each day to learn something new in your field and stay updated with news.
+11. Dedicate some time each day to learn something new in your field and stay updated with newshttp://127.0.0.1:4000/ShreyaSharma/http://127.0.0.1:4000/ShreyaSharma/.
 12. Be a leader. Be proactive to ideate and take initiatives.
 13. Be a good human, human > profit. Everybody is going to remember what type of person you are and not your PPT's.
 14. Enjoy the process and not just the achieved goal. Focus on everyday growth. Celebrate small successes and retrospect briefly on mistakes. But do not dwell too much and be a little detached with success and failures as these are temporary. Just keep on moving forward.

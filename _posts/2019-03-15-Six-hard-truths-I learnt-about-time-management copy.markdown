@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Six hard-truths I learnt about time-management"
+title:  "Six Hard-truths I Learnt About Time-management"
 date:   2019-03-15 00:20:26 +0900
 categories: 
 ---

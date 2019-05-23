@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to structure data science projects"
+title:  "How To Structure Data Science Projects"
 date:   2019-05-12 00:20:26 +0900
 categories: 
 ---
