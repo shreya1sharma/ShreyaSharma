@@ -7,7 +7,7 @@ categories:
 
 On 3rd October 2018, I completed two years in my first job as a researcher at NEC Corporation Japan. Super-excited and energetic with new dreams and a little anxiety I moved to Japan. Over this transformational period, I learnt very valuable and practical lessons related to professional life through my experiences, colleagues, friends and self-analysis. In this post, I want to summarize of all those key lessons which I truly admire and want to keep in my attitude always.
 
-1. Never show your weakness in office (atleast not verbally). Instead highlight your strengths in all the assigned tasks.
+1. Never show your weakness in office (atleast not verbally). Instead highlight your signature strengths in all the assigned tasks.
 2. Try to make good and genuine friends but do not indulge in flattering.
 3. Embrace disagreement, try to think from the perspective of the other person and negotiate.
 4. Never take your bad mood to office. Have some transition time/break before office to fade away that sad face.
