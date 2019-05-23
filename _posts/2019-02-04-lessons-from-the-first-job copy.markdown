@@ -14,7 +14,7 @@ On 3rd October 2018, I completed two years in my first job as a researcher at NE
 5. Dress well. It boosts your energy.
 6. Do not waste time in pleasanteries (especially with familiar people) and get straight to the point.
 7. Make connections across different departments.
-8. Be healthy and happy no matter what.
+8. Health first! Stop outsourcing your happiness to people and situations.
 9. Keep your workplace organized and clean- files, codes, shared information, important documents, office memos. Create a logical structure of your folders and files.
 10. Manage your time well- project timeline, reply to colleagues, meetings, decision-making etc.
 11. Dedicate some time each day to learn something new in your field and stay updated with news.
@@ -29,3 +29,5 @@ On 3rd October 2018, I completed two years in my first job as a researcher at NE
 20. Be very clear about 'So what' before starting any work. Define goal (in terms of time/performance) before starting any work.
 21. Create a log of your achievements, learnings and ideas.
 22. Don't get stuck in a problem. Be a problem solver and make your way out of the chaos as fast as you can.
+23. Keep a planner for the entire year to plan and track your goals, habits, achievements and anything you want to log.
+24. Do check all your organizational systems per month.
