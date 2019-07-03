@@ -79,7 +79,73 @@ title: Probability and Statistics
 - degrees of freedom (n-1) are defined as the number of "observations" (pieces of information) in the data that are free to vary when estimating statistical parameters ([hat example](https://blog.minitab.com/blog/statistics-and-quality-data-analysis/what-are-degrees-of-freedom-in-statistics))
 
 8. Sampling distribution
-- distribution of means of various samples taken from a population
-- expected value of sampling distribution = expected value of the population
-- 
+- distribution of means of samples sets taken from a population
+- expected value of sampling distribution of a parameter = expected value of the population parameter
+
+9. Standard error
+- standard deviation of sampling distribution
+- tells how close we can get to the actual parameter
+- if number of samples increases, standard error decreases but only upto a point
+
+10. Sample proportion
+- the count of observations we are interested in from all the samples
+- like binomial distribution
+
+11. Confidence Interval
+- tells us how confident we are about our estimation of a parameter
+- our estimate = point estimate +/- margin of error
+- margin of error = confidence degree * standard error (ex. 1.96 * standard error for 95% CI)
+- CI depends on - sample size n, standard deviation, alpha (confidence degree)
+- 2 ways to estimate based on availability of std: using z or t
+- if std known, we use z => CI width is same for all samples provided that sample size is same
+- if std unknown, we use t =>  CI width is NOT same for all samples since sample std is variable
+- interpretation : 95% CI means 95% of our samples contain the population mean and are representative of the population. Thus, CI gives the probability of obtaining a representation sample.
+
+12. Hypothesis testing
+- two worlds: null hypotesis (assumption/given) and alternate hypothesis (unknown/clam)
+- Null and alternate are mutually exclusive
+- we either test the assumption or the claim, depends on problem
+- Null hypothesis always contain an equality
+- types of errors in hypothesis testing - type 1 and type 2
+- type 1 : rejection of null hypothesis when it should not have been rejected
+- type 2 : failure to reject the null hypothesis when it should have been rejected
+- generally, type 2 error is more catastrophic
+- type 1 error is controlled by alpha while type 2 error is controlled by beta
+- as alpha decreases (90%->95%->99%), type 1 error decreases but type 2 error increases
+- steps of hypothesis testing
+		1. start with a well-defined research problem
+		2. establish hypothesis, both null and alternate
+		3. determine appropriate statistical test (z or t or chi) and sampling distribution (depending on sigma nown or unkwown)
+		4. choose alpha, type 1 error rate
+		5. state the decision rule 
+		6. gather sample data
+		7. calculate test statistic
+		8. state statistical conclusion
+		9. make decision or inference based on conclusion
 		
+- alpha effect: relationship between alpha value and type 1 and type 2 error rate
+- p-value method: p-value is the area above the test-statistic in the normal curve. If p > alpha => do not reject Ho, else reject Ho. P is called observed significance value.	
+- two main factors for deciding critical values are : alpha and sample size (n)
+- critical value move inwards if n decreases or alpha decreases (?)
+
+13. Controlling type 1 and type 2 error
+- type 1 error is easily controlled by alpha
+- type 2 error is controlled by beta. First we need to fix an alternate mean value. A portion of alternative distribution overlaps with the true population.
+- beta is determined by the overlap area and denotes type 2 error
+- the remaining part is called TEST POWER which tells how powerful is our test in correctly rejecting the null hypothesis
+- since alternate mean value can take multiple values, type 2 errors can be multipla
+- we can fix type 2 error beforehand using appropriate sample size (n) to align the alpha and beta regions in the true and alternate distributions respectively
+		
+14. Type of hypothesis tests for mean
+	* single sample hypothesis z-test : to check whether population mean is equal to hypothesized mean; sigma known
+	* single sample hypothesis t-test : to check whether population mean is equal to hypothesized mean; sigma unknown
+	* two population hypothesis z-test : to check whether means of two populations are statistically different or not; sigma known 
+	* two population hypothesis t-test : sigma unknown; here we also estimate dof
+	* two population matched sample t-test: when the two populations are not independent, ex: to compare the weight before and after weight loss diet of a person.
+
+15. Inference about variance
+- variance test is important for quality assurance and precise measurement
+- distribution of sampling distribution of variances follow chi-square distribution
+- chi-square distribution is not 'one' and depends on alpha and dof (like t-distribution)
+
+	
