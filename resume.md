@@ -3,6 +3,8 @@ layout: page
 title: Résumé
 permalink: /resume/
 ---
+
+Please download 1-page résumé [here]({{site.url}}{{site.baseurl}}/assets/docs/shreya_cv.pdf)
 ### Areas of Interest
 -----------------
 Deep Learning | Machine Learning | Image Processing | Computer Vision | Geospatial Analytics
