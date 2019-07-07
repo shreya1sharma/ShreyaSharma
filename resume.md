@@ -22,7 +22,7 @@ Deep Learning | Machine Learning | Image Processing | Computer Vision | Geospati
 ### Education
 ---------------
 * Indian Institute of Technology Bombay (IITB), India [2014-2016]
-	* M. Tech in Geoinformatics and Resources Engineering, GPA: 9.79/10
+	* M. Tech in Geoinformatics Engineering, GPA: 9.79/10
 
 * College of Technology, GBPUAT, Pantnagar, India [2010-2014]
 	* B. Tech in Electrical Engineering, GPA: 8.25/10
