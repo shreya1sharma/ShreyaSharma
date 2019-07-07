@@ -8,7 +8,7 @@ permalink: /resume/
 Deep Learning | Machine Learning | Image Processing | Computer Vision | Geospatial Analytics
 ### Professional Experience
 ----------------
-**Researcher, Data Science Laboratories, NEC Corporation, Japan [Oct 2016-Present]**
+**Researcher, Data Science Research Laboratories, NEC Corporation, Japan [Oct 2016-Present]**
 
 * Responsible for developing novel algorithms for geospatial applications using machine learning and deep learning. Involved in key research and business collaborations.
 
