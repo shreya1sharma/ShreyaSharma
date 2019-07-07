@@ -118,7 +118,7 @@ Image Processing • Remote Sensing and GIS • Algorithms
 
 ### Hobbies
 --------
-* Reading, blogging, hiking, cooking
+Reading, blogging, hiking, cooking
 
 
 
