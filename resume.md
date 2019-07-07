@@ -16,24 +16,6 @@ Deep Learning | Machine Learning | Image Processing | Computer Vision | Geospati
 
 * Conducted research work on Hyperspectral image super-resolution. Simultaneously, mentored 1st year M.Tech students in efficient implementation of course projects in image processing and remote sensing.
 
-### Publications and Patents
-----------------
-
-1. **Shreya Sharma**, Masato Toda, **Very high resolution SAR change detection with Siamese Networks**, The 66th Academic Conference of the Remote Sensing Society of Japan, 2019.
-
-2. **Shreya Sharma**, Yuzo Senda, Kenta Senzaki, Hirofumi Aoki, **CNN-based ship classification method incorporating SAR geometry information**,  SPIE Remote Sensing, Germany, 2018 [Publication](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10789/107890C/CNN-based-ship-classification-method-incorporating-SAR-geometry-information/10.1117/12.2325282.short?SSO=1)
-
-3. **Shreya Sharma**, Kenta Senzaki, Hirofumi Aoki, **Comparative evaluation of feature extraction approaches for ship classification in moderate-resolution SAR imagery**, IEEE International Geoscience and Remote Sensing Symposium (IGARSS), Spain, 2018 [Publication](https://ieeexplore.ieee.org/abstract/document/8518966)
-
-4. **Shreya Sharma**, Shakti Sharma, Krishna Mohan Buddhiraju, **Sub-pixel mapping of hyperspectral imagery using super-resolution**, SPIE-Asia Pacific Remote Sensing, India, 2016 [Publication](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9880/1/Sub-pixel-mapping-of-hyperspectral-imagery-using-super-resolution/10.1117/12.2223598.short?SSO=1)
-
-5. Shakti Sharma, **Shreya Sharma**, Krishna Mohan Buddhiraju, **Ant colony optimization for super-resolution of hyperspectral images**, Workshop in Hyperspectral Image and Signal Processing: Evolution in Remote Sensing (WHISPERS), 2016 [Publication](https://ieeexplore.ieee.org/abstract/document/8071672)
-
-**Patent 1: Shreya Sharma**, Yuzo Senda, Hirofumi Aoki and Kenta Senzaki, Image Processing Method, Image Processing Device and Image Processing System, PCT/JP2017/047272
-
-**Patent 2: Shreya Sharma** and Masato Toda, Image Processing Method, Image Processing Device and Image Processing System, PCT/JP2019/016540
-
-**Patent 3: Shreya Sharma** and Masato Toda, Image Processing Method, Image Processing Device and Image Processing System, PCT/JP2019/014832
 
 ### Education
 ---------------
@@ -76,6 +58,28 @@ Deep Learning | Machine Learning | Image Processing | Computer Vision | Geospati
 
 10. **Optimal Bike Path Development and Shortest Route Detection** 
 	* Implemented Dijkstra Algorithm to find shortest route between two stations by running a query.
+
+### Publications
+----------------
+
+1. **Shreya Sharma**, Masato Toda, **Very high resolution SAR change detection with Siamese Networks**, The 66th Academic Conference of the Remote Sensing Society of Japan, 2019.
+
+2. **Shreya Sharma**, Yuzo Senda, Kenta Senzaki, Hirofumi Aoki, **CNN-based ship classification method incorporating SAR geometry information**,  SPIE Remote Sensing, Germany, 2018 [Publication](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10789/107890C/CNN-based-ship-classification-method-incorporating-SAR-geometry-information/10.1117/12.2325282.short?SSO=1)
+
+3. **Shreya Sharma**, Kenta Senzaki, Hirofumi Aoki, **Comparative evaluation of feature extraction approaches for ship classification in moderate-resolution SAR imagery**, IEEE International Geoscience and Remote Sensing Symposium (IGARSS), Spain, 2018 [Publication](https://ieeexplore.ieee.org/abstract/document/8518966)
+
+4. **Shreya Sharma**, Shakti Sharma, Krishna Mohan Buddhiraju, **Sub-pixel mapping of hyperspectral imagery using super-resolution**, SPIE-Asia Pacific Remote Sensing, India, 2016 [Publication](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9880/1/Sub-pixel-mapping-of-hyperspectral-imagery-using-super-resolution/10.1117/12.2223598.short?SSO=1)
+
+5. Shakti Sharma, **Shreya Sharma**, Krishna Mohan Buddhiraju, **Ant colony optimization for super-resolution of hyperspectral images**, Workshop in Hyperspectral Image and Signal Processing: Evolution in Remote Sensing (WHISPERS), 2016 [Publication](https://ieeexplore.ieee.org/abstract/document/8071672)
+
+
+### Patents
+-----
+1. **Shreya Sharma**, Yuzo Senda, Hirofumi Aoki and Kenta Senzaki, Image Processing Method, Image Processing Device and Image Processing System, PCT/JP2017/047272
+
+2. **Shreya Sharma** and Masato Toda, Image Processing Method, Image Processing Device and Image Processing System, PCT/JP2019/016540
+
+3. **Shreya Sharma** and Masato Toda, Image Processing Method, Image Processing Device and Image Processing System, PCT/JP2019/014832
 
 ### Skills
 --------
