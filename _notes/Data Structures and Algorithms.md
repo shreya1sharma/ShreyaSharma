@@ -36,9 +36,8 @@ title: Data Structures and Algorithms
 
 ```python
 #Simplest implementation
-                
-                hash_table = [None]*10
-                print(hash_table)
+hash_table = [None]*10
+print(hash_table)
 
                 def hashing_function(key):
                         return key % len(hash_table)
