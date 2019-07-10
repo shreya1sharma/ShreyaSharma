@@ -56,7 +56,7 @@ print (hash_table)
 # Output: 
 # ['Nepal', None, None, None, None, 'USA', None, None, None, None]    
 ```
-
+- Collision:
 
 
 ---
