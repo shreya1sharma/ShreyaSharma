@@ -5,7 +5,7 @@ title: Data Structures and Algorithms
 ---
 
 
-hohoho 
+
 **Time-complexity Analysis**
 
 1. Types of complexity
@@ -28,5 +28,11 @@ hohoho
 3. Recursion 
 4. Backtracking
 5. Dynamic Programming
+
+
+**Hash Tables**
+- data are stored in an associative manner (in key, value format)
+- uses a hashing function that generates a slot or an index to store/insert any element or value
+        def 
 
 ---
