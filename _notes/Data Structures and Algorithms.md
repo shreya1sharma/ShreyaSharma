@@ -33,6 +33,6 @@ title: Data Structures and Algorithms
 **Hash Tables**
 - data are stored in an associative manner (in key, value format)
 - uses a hashing function that generates a slot or an index to store/insert any element or value
-        def 
+        def hjhjh
 
 ---
