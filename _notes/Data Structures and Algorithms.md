@@ -150,4 +150,7 @@ def delete(hash_table, key, value):
       print ('Key {} not found'.format(key))
 ```
 - keywords: key -> hashing function -> hash value -> index/slot -> hash table -> data value
+
+- next
 ---
+
