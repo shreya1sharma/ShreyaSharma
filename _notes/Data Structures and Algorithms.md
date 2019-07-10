@@ -34,7 +34,8 @@ title: Data Structures and Algorithms
 - data are stored in an associative manner (in key, value format)
 - uses a hashing function that generates a slot or an index to store/insert any element or value
 
-                #Simplest implementation
+```python
+#Simplest implementation
                 
                 hash_table = [None]*10
                 print(hash_table)
@@ -56,7 +57,7 @@ title: Data Structures and Algorithms
                 # Output: 
                 # ['Nepal', None, None, None, None, 'USA', None, None, None, None]    
 
-
+```
 
 
 
