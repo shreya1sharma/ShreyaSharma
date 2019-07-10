@@ -39,23 +39,22 @@ title: Data Structures and Algorithms
 hash_table = [None]*10
 print(hash_table)
 
-                def hashing_function(key):
-                        return key % len(hash_table)
+def hashing_function(key):
+  return key % len(hash_table)
                         
-                def insert(hash_table, key, value):
-                        hash_key = hashing_function(key)
-                        hash_table[hash_key] = value
-                        
-                insert(hash_table, 10, 'Nepal')
-                print (hash_table)
-                # Output: 
-                # ['Nepal', None, None, None, None, None, None, None, None, None]
+def insert(hash_table, key, value):
+  hash_key = hashing_function(key)
+  hash_table[hash_key] = value
 
-                insert(hash_table, 25, 'USA')
-                print (hash_table)
-                # Output: 
-                # ['Nepal', None, None, None, None, 'USA', None, None, None, None]    
+insert(hash_table, 10, 'Nepal')
+print (hash_table)
+# Output: 
+# ['Nepal', None, None, None, None, None, None, None, None, None]
 
+insert(hash_table, 25, 'USA')
+print (hash_table)
+# Output: 
+# ['Nepal', None, None, None, None, 'USA', None, None, None, None]    
 ```
 
 
