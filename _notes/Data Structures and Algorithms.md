@@ -78,6 +78,17 @@ insert(hash_table, 20, 'India')
 print (hash_table)
 # Output: 
 # [['Nepal', 'India'], [], [], [], [], ['USA'], [], [], [], []]
+
 ```
 
+- hash(): In-built python function to create a hash value of any key
+- creates an integer hash value for both string and integer key. The hash value for integer will be same as it is, i.e. hash(10) will be 10, hash(20) will be 20, and so on.
+```python
+hash_key = hash('10')
+print (hash_key) # Output: 6272037681056609
+ 
+hash_key = hash(10)
+print (hash_key) # Output: 10
+```
+- Standard Implementation of 3 methods : insert, search, delete
 ---
