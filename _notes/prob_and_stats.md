@@ -148,9 +148,9 @@ title: Probability and Statistics
 - distribution of sampling distribution of variances follow chi-square distribution
 - chi-square distribution is not only 'one' and depends on alpha and dof (like t-distribution)
 - as sample size n increases, the interval estimate of variance narrows and the chi-square distribution approaches normal distribution
-![image]({{site.url}}{{site.baseurl}}/assets/images/chi_1.jpg)
-![image]({{site.url}}{{site.baseurl}}/assets/images/chi square_1.jpg)
-![image]({{site.url}}{{site.baseurl}}/assets/images/n effect_1.jpg)
+![image]({{site.url}}{{site.baseurl}}/assets/images/chi_1.jpg){width=50%}
+![image]({{site.url}}{{site.baseurl}}/assets/images/chi square_1.jpg){width=50%}
+![image]({{site.url}}{{site.baseurl}}/assets/images/n effect_1.jpg){width=50%}
 
 16. Hypothesis testing of variance
 - goal is to test whether a sample variance meets the assumption of hypothesized variance or not
@@ -194,12 +194,12 @@ title: Probability and Statistics
 	- Marginal Mean Graph (MMG)
 	- Interaction occurs when the effect of one factor changes for different levels of the other factor
 	- while reading ANOVA table, always look for interaction first. If interaction is significant, then the effect of each factor cannot be analyzed because they are too intertwined
-	![image]({{site.url}}{{site.baseurl}}/assets/images/anova mmg_1.jpg)
+	![image]({{site.url}}{{site.baseurl}}/assets/images/anova mmg_1.jpg){width=50%}
 	
 keywords
 	
 	
-
+ghjg
 
 
 	
