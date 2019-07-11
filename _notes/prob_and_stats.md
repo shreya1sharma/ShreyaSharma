@@ -14,7 +14,7 @@ title: Probability and Statistics
 
 
 -----
-**Statistics Topics**
+**Statistics**
 
 1. Population versus sample
 - sample is a representative of the population
@@ -153,15 +153,41 @@ title: Probability and Statistics
 - goal is to test whether a sample variance meets the assumption of hypothesized variance or not
 - same process as above except the test-statistic and sampling distribution
 - Types of hypothesis tests for variance:
-	* single sample hypothesis test: to check whether population variance is equal to hypothesized mean
+	- single sample hypothesis test: to check whether population variance is equal to hypothesized mean
 		- 3 types: two-tailed, right-tailed, left-tailed (extremely rare)
-	* two population hypothesis test: k/a f-raton test to check whether variances of two populations are statistically different or not
+	- two population hypothesis test: k/a f-ratio test to check whether variances of two populations are statistically different or not
 		- f-distribution : when independent random samples of two normal population are taken, the sampling distribution of the ratio of those sample variances follows f-distribution
 		- has two types of DOF: one for each population
 		- only right-tailed because either the variances are equal (null) or the Nr. one is larger than Dr. one (alternate)
 	
 17. Chi-square test: test of independence
- - 
+ - to understand te relatonship between two categorical variables
+ - to test whether the co-variation between two variables is due to some random chance or there exists some important reltionship
+ - we get two contigency tables - OBSERVED and EXPECTED, to test the relationship between 2 variables. Ex. Student levels and years.
+ - chi-square test is done on the difference between observed and expected to check whether the difference is statistically significant or just random chance
+ 
+	
+18. ANOVA
+- to compare means of more than 2 populations; the point is to ask whether the populations come from the same overall population
+- multiple t-tests do not work because it leads to compounding of error
+- anova is a variability ratio = variance between/variance within
+- total variance = variance between + variance within
+- 3 cases:
+	- if ratio is large/small => reject Ho (Ho is all the populations come from same overall population)
+	- if ratio is similar/similar => fail to reject Ho
+	- if ratio is small/large => fail to reject Ho
+	
+- 2 types off anova : one-way adnd two-way
+- in anova, we measure variance using sum of squares
+- one-way: 
+	- SST (total) = SSC (columns/between) + SSE (error/within)
+	- if SSC > SSE => reject Ho, there exists a difference
+- two-way:
+	- we add one more factor at the row level
+	- this helps in further untangle variance sources to make sure that the column variance is not masked by any other factor
+	- SST = SSC (columns) + SSB (blocks/rows) + minimized SSE (error)
+	- if SSC > minimized SSE => reject Ho, there exists a difference
+	
 	
 
 
