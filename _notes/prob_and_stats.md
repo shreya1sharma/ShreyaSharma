@@ -4,6 +4,7 @@ title: Probability and Statistics
 
 ---
 
+
 **Important Articles**
 
 1. [The 5 Basic Statistics Concepts Data Scientists Need to Know](https://towardsdatascience.com/the-5-basic-statistics-concepts-data-scientists-need-to-know-2c96740377ae)
@@ -14,7 +15,7 @@ title: Probability and Statistics
 
 
 -----
-**Statistics Topics**
+**Statistics**
 
 1. Population versus sample
 - sample is a representative of the population
@@ -119,6 +120,7 @@ lies in the method of selecting samples and not in the population parameter.
 - type 1 error is controlled by alpha while type 2 error is controlled by beta
 - as alpha decreases (90%->95%->99%), type 1 error decreases but type 2 error increases
 - steps of hypothesis testing
+<<<<<<< HEAD
 		1. start with a well-defined research problem
 		2. establish hypothesis, both null and alternate
 		3. determine appropriate statistical test (z or t or chi) and sampling distribution (depending on sigma nown or unkwown)
@@ -128,6 +130,17 @@ lies in the method of selecting samples and not in the population parameter.
 		7. calculate test statistic
 		8. state statistical conclusion
 		9. make decision or inference based on conclusion	
+=======
+	1. start with a well-defined research problem
+	2. establish hypothesis, both null and alternate
+	3. determine appropriate statistical test (z or t or chi) and sampling distribution (depending on sigma nown or unkwown)
+	4. choose alpha, type 1 error rate
+	5. state the decision rule 
+	6. gather sample data
+	7. calculate test statistic
+	8. state statistical conclusion
+	9. make decision or inference based on conclusion		
+>>>>>>> c807e06bb4abfc0d224ca2ea4d4e90ab0b8f176c
 - alpha effect: relationship between alpha value and type 1 and type 2 error rate
 - p-value method: p-value is the area above the test-statistic in the normal curve. If p > alpha => do not reject Ho, else reject Ho. P is called observed significance value.	
 - two main factors for deciding critical values are : alpha and sample size (n)
@@ -149,8 +162,61 @@ lies in the method of selecting samples and not in the population parameter.
 	* two population matched sample t-test: when the two populations are not independent, ex: to compare the weight before and after weight loss diet of a person.
 
 15. Inference about variance
-- variance test is important for quality assurance and precise measurement
+- variance test is very important for quality assurance, operations management and precise measurement
+- higher variation could mean inconsistent production or out of control processes
 - distribution of sampling distribution of variances follow chi-square distribution
-- chi-square distribution is not 'one' and depends on alpha and dof (like t-distribution)
+- chi-square distribution is not only 'one' and depends on alpha and dof (like t-distribution)
+- as sample size n increases, the interval estimate of variance narrows and the chi-square distribution approaches normal distribution
+![image]({{site.url}}{{site.baseurl}}/assets/images/chi_1.jpg){width= 200px}
+![image]({{site.url}}{{site.baseurl}}/assets/images/chi square_1.jpg){width=200 px}
+![image]({{site.url}}{{site.baseurl}}/assets/images/n effect_1.jpg){width=200 px}
 
+16. Hypothesis testing of variance
+- goal is to test whether a sample variance meets the assumption of hypothesized variance or not
+- same process as above except the test-statistic and sampling distribution
+- Types of hypothesis tests for variance:
+	- single sample hypothesis test: to check whether population variance is equal to hypothesized mean
+		- 3 types: two-tailed, right-tailed, left-tailed (extremely rare)
+	- two population hypothesis test: k/a f-ratio test to check whether variances of two populations are statistically different or not
+		- f-distribution : when independent random samples of two normal population are taken, the sampling distribution of the ratio of those sample variances follows f-distribution
+		- has two types of DOF: one for each population
+		- only right-tailed because either the variances are equal (null) or the Nr. one is larger than Dr. one (alternate)
+	
+17. Chi-square test: test of independence
+ - to understand te relatonship between two categorical variables
+ - to test whether the co-variation between two variables is due to some random chance or there exists some important reltionship
+ - we get two contigency tables - OBSERVED and EXPECTED, to test the relationship between 2 variables. Ex. Student levels and years.
+ - chi-square test is done on the difference between observed and expected to check whether the difference is statistically significant or just random chance
+ 
+	
+18. ANOVA
+- to compare means of more than 2 populations; the point is to ask whether the populations come from the same overall population
+- multiple t-tests do not work because it leads to compounding of error
+- anova is a variability ratio = variance between/variance within
+- total variance = variance between + variance within
+- 3 cases:
+	- if ratio is large/small => reject Ho (Ho is all the populations come from same overall population)
+	- if ratio is similar/similar => fail to reject Ho
+	- if ratio is small/large => fail to reject Ho
+	
+- 2 types off anova : one-way adnd two-way
+- in anova, we measure variance using sum of squares
+- one-way: 
+	- SST (total) = SSC (columns/between) + SSE (error/within)
+	- if SSC > SSE => reject Ho, there exists a difference
+- two-way (also called Randomized Design):
+	- we add one more factor at the row level
+	- this helps in further untangle variance sources to make sure that the column variance is not masked by any other factor
+	- SST = SSC (columns) + SSB (blocks/rows) + minimized SSE (error)
+	- if SSC > minimized SSE => reject Ho, there exists a difference
+- two-way with replication : 1) 2 factors 2) multiple measurements for each factor combination
+	- Marginal Mean Graph (MMG)
+	- Interaction occurs when the effect of one factor changes for different levels of the other factor
+	- while reading ANOVA table, always look for interaction first. If interaction is significant, then the effect of each factor cannot be analyzed because they are too intertwined
+	![image]({{site.url}}{{site.baseurl}}/assets/images/anova mmg_1.jpg){:style="float:left;margin-right: 200px;margin-top: 7px;" height="200px" width="200px" }
+	
+keywords
+	
+	
+ghjghgfhgf
 	
