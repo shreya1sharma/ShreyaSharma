@@ -19,6 +19,11 @@ title: Probability and Statistics
 1. Population versus sample
 - sample is a representative of the population
 - in population we measure a parameter, in sample we measure statistic
+- sample must be:
+	1. part of population
+	2. representative
+	3. independent
+	4. random
 - always two version of maths formulas - one for population and one for sample
 
 2. Descriptive statistics
@@ -99,10 +104,11 @@ title: Probability and Statistics
 - 2 ways to estimate based on availability of std: using z or t
 - if std known, we use z => CI width is same for all samples provided that sample size is same
 - if std unknown, we use t =>  CI width is NOT same for all samples since sample std is variable
-- interpretation : 95% CI means 95% of our samples contain the population mean and are representative of the population. Thus, CI gives the probability of obtaining a representation sample.
+- interpretation : 95% CI means 95% of our samples contain the population mean and are representative of the population. Thus, CI gives the probability of obtaining a representative sample. Note that the randoness
+lies in the method of selecting samples and not in the population parameter.
 
 12. Hypothesis testing
-- two worlds: null hypotesis (assumption/given) and alternate hypothesis (unknown/clam)
+- two worlds: null hypotesis (assumption/given) and alternate hypothesis (unknown/claim)
 - Null and alternate are mutually exclusive
 - we either test the assumption or the claim, depends on problem
 - Null hypothesis always contain an equality
@@ -121,12 +127,11 @@ title: Probability and Statistics
 		6. gather sample data
 		7. calculate test statistic
 		8. state statistical conclusion
-		9. make decision or inference based on conclusion
-		
+		9. make decision or inference based on conclusion	
 - alpha effect: relationship between alpha value and type 1 and type 2 error rate
 - p-value method: p-value is the area above the test-statistic in the normal curve. If p > alpha => do not reject Ho, else reject Ho. P is called observed significance value.	
 - two main factors for deciding critical values are : alpha and sample size (n)
-- critical value move inwards if n decreases or alpha decreases (?)
+- critical value move outwards if n decreases 
 
 13. Controlling type 1 and type 2 error
 - type 1 error is easily controlled by alpha
@@ -134,7 +139,7 @@ title: Probability and Statistics
 - beta is determined by the overlap area and denotes type 2 error
 - the remaining part is called TEST POWER which tells how powerful is our test in correctly rejecting the null hypothesis
 - since alternate mean value can take multiple values, type 2 errors can be multipla
-- we can fix type 2 error beforehand using appropriate sample size (n) to align the alpha and beta regions in the true and alternate distributions respectively
+- we can fix type 2 error beforehand using appropriate sample size (n) to align the alpha and beta regions (critical values) in the true and alternate distributions respectively
 		
 14. Type of hypothesis tests for mean
 	* single sample hypothesis z-test : to check whether population mean is equal to hypothesized mean; sigma known
