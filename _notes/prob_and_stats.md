@@ -196,7 +196,7 @@ title: Probability and Statistics
 	- while reading ANOVA table, always look for interaction first. If interaction is significant, then the effect of each factor cannot be analyzed because they are too intertwined
 	![image]({{site.url}}{{site.baseurl}}/assets/images/anova mmg_1.jpg)
 	
-	
+keywords
 	
 	
 
