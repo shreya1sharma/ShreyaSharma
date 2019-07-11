@@ -182,11 +182,17 @@ title: Probability and Statistics
 - one-way: 
 	- SST (total) = SSC (columns/between) + SSE (error/within)
 	- if SSC > SSE => reject Ho, there exists a difference
-- two-way:
+- two-way (also called Randomized Design):
 	- we add one more factor at the row level
 	- this helps in further untangle variance sources to make sure that the column variance is not masked by any other factor
 	- SST = SSC (columns) + SSB (blocks/rows) + minimized SSE (error)
 	- if SSC > minimized SSE => reject Ho, there exists a difference
+- two-way with replication : 1) 2 factors 2) multiple measurements for each factor combination
+	- Marginal Mean Graph (MMG)
+	- Interaction occurs when the effect of one factor changes for different levels of the other factor
+	- while reading ANOVA table, always look for interaction first. If interaction is significant, then the effect of each factor cannot be analyzed because they are too intertwined
+	
+	
 	
 	
 
