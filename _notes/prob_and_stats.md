@@ -121,8 +121,7 @@ title: Probability and Statistics
 		6. gather sample data
 		7. calculate test statistic
 		8. state statistical conclusion
-		9. make decision or inference based on conclusion
-		
+		9. make decision or inference based on conclusion		
 - alpha effect: relationship between alpha value and type 1 and type 2 error rate
 - p-value method: p-value is the area above the test-statistic in the normal curve. If p > alpha => do not reject Ho, else reject Ho. P is called observed significance value.	
 - two main factors for deciding critical values are : alpha and sample size (n)
