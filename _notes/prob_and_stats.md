@@ -144,8 +144,27 @@ title: Probability and Statistics
 	* two population matched sample t-test: when the two populations are not independent, ex: to compare the weight before and after weight loss diet of a person.
 
 15. Inference about variance
-- variance test is important for quality assurance and precise measurement
+- variance test is very important for quality assurance, operations management and precise measurement
+- higher variation could mean inconsistent production or out of control processes
 - distribution of sampling distribution of variances follow chi-square distribution
-- chi-square distribution is not 'one' and depends on alpha and dof (like t-distribution)
+- chi-square distribution is not only 'one' and depends on alpha and dof (like t-distribution)
+- as sample size n increases, the interval estimate of variance narrows and the chi-square distribution approaches normal distribution
+
+16. Hypothesis testing of variance
+- goal is to test whether a sample variance meets the assumption of hypothesized variance or not
+- same process as above except the test-statistic and sampling distribution
+- Types of hypothesis tests for variance:
+	* single sample hypothesis test: to check whether population variance is equal to hypothesized mean
+		- 3 types: two-tailed, right-tailed, left-tailed (extremely rare)
+	* two population hypothesis test: k/a f-raton test to check whether variances of two populations are statistically different or not
+		- f-distribution : when independent random samples of two normal population are taken, the sampling distribution of the ratio of those sample variances follows f-distribution
+		- has two types of DOF: one for each population
+		- only right-tailed because either the variances are equal (null) or the Nr. one is larger than Dr. one (alternate)
+	
+17. Chi-square test: test of independence
+ - 
+	
+
+
 
 	
