@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title:  "How To Efficiently Read a Research Paper?"
+title:  "How To Efficiently Read a Research Paper"
 date:   2019-05-22 00:20:26 +0900
 categories: 
 --- 

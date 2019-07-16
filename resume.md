@@ -37,8 +37,8 @@ Deep Learning | Machine Learning | Image Processing | Computer Vision | Geospati
 2. **Ship Classification for Maritime Surveillance using Synthetic Aperture Radar (SAR) images**
 	* Invented a novel ship classification method that combines geometry information with image features into a convolutional neural network (CNN) to achieve robust feature representation of ships.
 	
-3. **Land-use Land-cover Classification**
-	* Created an application to classify five types of land-cover using satellite images and deep learning and initiated new research direction.
+3. **Land-use Land-cover Segmentation**
+	* Created an application to segment five types of land-cover using satellite images and deep learning and initiated new research direction.
 
 4. **Comparative Study of Feature Extraction Methods for Moderate Resolution Satellite Images**
 	* Evaluated hand-crafted features, Principal Component Analysis (PCA) and Autoencoder based on accuracy, ship length and speed for classifying ships in 6m spatial resolution images.
