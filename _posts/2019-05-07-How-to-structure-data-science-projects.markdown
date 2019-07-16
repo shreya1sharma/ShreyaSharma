@@ -33,10 +33,11 @@ Example folder structure
 		4.3 interim     
 		4.4 external    -> data from external sources
 		
-	5. models           -> save the trained models and summary
-	6. results          
+	5. models           -> save the trained models
+		summary.txt -> summary of all models (parameters, conditions) in a text file
+	6. results          -> save the results by date ex. YYYYMMDD.model_name.prediction.jpg
 	7. src              
-		7.1 __init__.py -> Makes src a Python moduledata.py
+		7.1 __init__.py -> Makes src a Python module
 		7.2 data        
 			make_dataset.py
 		7.3 features     
@@ -168,3 +169,5 @@ It should contain 5 parts:
 4. [How to write production level code in data science](https://towardsdatascience.com/how-to-write-a-production-level-code-in-data-science-5d87bd75ced)
 5. [Example directory structure](https://github.com/zhixuhao/unet)
 6. [Properly setting the random seed in machine learning experiments](https://towardsdatascience.com/properly-setting-the-random-seed-in-machine-learning-experiments-7da298d1320b)
+7. [How to manage machine learning projects](https://www.kaggle.com/general/4815)
+8. [Best Practices for Scientific Computing](https://arxiv.org/pdf/1210.0530v3.pdf)
