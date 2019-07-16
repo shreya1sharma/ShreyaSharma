@@ -9,6 +9,7 @@ title: Probability and Statistics
 
 1. [The 5 Basic Statistics Concepts Data Scientists Need to Know](https://towardsdatascience.com/the-5-basic-statistics-concepts-data-scientists-need-to-know-2c96740377ae)
 2. [Probability Cheatsheet]({{site.url}}{{ site.baseurl }}/assets/docs/probability_cheatsheet.pdf)
+3. [Inferential Statistics for Data Science](https://towardsdatascience.com/inferential-statistics-for-data-science-b0075670fc8a)
 
 ---
 **Probability Topics**
@@ -120,7 +121,7 @@ lies in the method of selecting samples and not in the population parameter.
 - type 1 error is controlled by alpha while type 2 error is controlled by beta
 - as alpha decreases (90%->95%->99%), type 1 error decreases but type 2 error increases
 - steps of hypothesis testing
-<<<<<<< HEAD
+
 		1. start with a well-defined research problem
 		2. establish hypothesis, both null and alternate
 		3. determine appropriate statistical test (z or t or chi) and sampling distribution (depending on sigma nown or unkwown)
@@ -130,7 +131,7 @@ lies in the method of selecting samples and not in the population parameter.
 		7. calculate test statistic
 		8. state statistical conclusion
 		9. make decision or inference based on conclusion	
-=======
+
 	1. start with a well-defined research problem
 	2. establish hypothesis, both null and alternate
 	3. determine appropriate statistical test (z or t or chi) and sampling distribution (depending on sigma nown or unkwown)
@@ -140,7 +141,7 @@ lies in the method of selecting samples and not in the population parameter.
 	7. calculate test statistic
 	8. state statistical conclusion
 	9. make decision or inference based on conclusion		
->>>>>>> c807e06bb4abfc0d224ca2ea4d4e90ab0b8f176c
+
 - alpha effect: relationship between alpha value and type 1 and type 2 error rate
 - p-value method: p-value is the area above the test-statistic in the normal curve. If p > alpha => do not reject Ho, else reject Ho. P is called observed significance value.	
 - two main factors for deciding critical values are : alpha and sample size (n)
