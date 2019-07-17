@@ -4,9 +4,11 @@ title: Python tricks
 
 ---
 
-1. Create a custom color map in matplotlib
-
+<details open>
+<summary> Create a custom color map in matplotlib</summary>
+ 
 ```python
+
 def generate_cmap(colors):
     values = range(len(colors))
     vmax = np.ceil(np.max(values))
@@ -45,3 +47,33 @@ cm  =  generate_cmap ([ 'moccasin', 'black', 'white', 'green', 'red' ]) #one col
 plt.imshow(color_map, cmap = cm)
 plt.show() 
 ```
+</details>
+
+<details open>
+<summary> Making a video in OpenCV </summary>
+  
+```python
+
+#variables
+image_folder = "enter the name of image folder"
+video_name = "demo_video.avi"
+fps = 1
+
+output_folder= "enter the name of image folder"
+
+files= sorted(os.listdir(image_folder))
+images = [img for img in files if img.endswith(".png")]
+frame = cv2.imread(os.path.join(image_folder, images[0]))
+height, width, depth = frame.shape
+
+fourcc= cv2.VideoWriter_fourcc(*'DIB ') #check codec and file extension very carefully
+video= cv2.VideoWriter(video_name, fourcc, fps, (width, height))
+
+for image in images:  
+        video.write(cv2.imread(os.path.join(image_folder, image))) 
+
+del images
+cv2.destroyAllWindows()
+video.release()
+```
+</details>
