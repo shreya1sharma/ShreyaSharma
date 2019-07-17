@@ -6,7 +6,8 @@ title: Python tricks
 
 <details open>
 <summary> Create a custom color map in matplotlib</summary>
-    
+   
+   
 ```python
 def generate_cmap(colors):
     values = range(len(colors))
@@ -50,6 +51,7 @@ plt.show()
 
 <details open>
 <summary> Making a video in OpenCV </summary>
+    
     
 ```python
 #variables
