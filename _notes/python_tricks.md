@@ -51,7 +51,7 @@ plt.show()
 
 <details open>
 <summary> Making a video in OpenCV </summary>
-    
+<br>   
     
 ```python
 #variables
@@ -76,4 +76,4 @@ del images
 cv2.destroyAllWindows()
 video.release()
 ```
-<\details>
+</details>
