@@ -50,6 +50,7 @@ plt.show()
 
 <details open>
 <summary> Making a video in OpenCV </summary>
+    
 ```python
 #variables
 image_folder = "enter the name of image folder"
