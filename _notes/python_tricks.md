@@ -6,9 +6,9 @@ title: Python tricks
 
 <details open>
 <summary> Create a custom color map in matplotlib</summary>
-   
-   
+ 
 ```python
+
 def generate_cmap(colors):
     values = range(len(colors))
     vmax = np.ceil(np.max(values))
@@ -51,9 +51,9 @@ plt.show()
 
 <details open>
 <summary> Making a video in OpenCV </summary>
-<br>   
-    
+  
 ```python
+
 #variables
 image_folder = "enter the name of image folder"
 video_name = "demo_video.avi"
