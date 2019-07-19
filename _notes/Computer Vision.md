@@ -97,9 +97,18 @@ title: Computer Vision
 		Note edge direction (gradient direction) is always perpendicular to edge.
 	5. apply hysterisis threshold
 		* uses dual threshold - high and low
-		* >high -> edge, <low -> no edge, between high-low -> if connected to an edge point then edge else not
+		*  <low -> no edge, >high -> edge, between high-low -> if connected to an edge point then edge else not
 	
 **4. Interest Point Detection**
+* 3 main components with local features- 1. Detection 2. Description 3. Matching
+	* Detection : we want to find same points in the two images independently. 
+	* Description : we want to be able to describe each point in order to reliably determine which point goes with which	
+	* Matching : we want to match the corresponding points
+* interest point has a very expressive texture. The point at which the direction of the boundary of an object changes abruptly.
+* a good interest point detector should detect all true kypoints with well localization and robust to noise.
+* corner is a key point which is unique, can be localized and robust to noise. Harris corner detector is used for detecting corners.
+
+
 
 **5. SIFT**
 
