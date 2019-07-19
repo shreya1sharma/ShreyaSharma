@@ -100,17 +100,36 @@ title: Computer Vision
 		*  <low -> no edge, >high -> edge, between high-low -> if connected to an edge point then edge else not
 	
 **4. Interest Point Detection**
-* 3 main components with local features- 1. Detection 2. Description 3. Matching
+* 3 main components with local features extracted using neighbourhood- 1. Detection 2. Description 3. Matching
 	* Detection : we want to find same points in the two images independently. 
 	* Description : we want to be able to describe each point in order to reliably determine which point goes with which	
 	* Matching : we want to match the corresponding points
-* interest point has a very expressive texture. The point at which the direction of the boundary of an object changes abruptly.
-* a good interest point detector should detect all true kypoints with well localization and robust to noise.
+* interest point should have a very expressive texture. The point at which the direction of the boundary of an object changes abruptly.
+* a good interest point detector should detect all true keypoints with well localization and robust to noise.
 * corner is a key point which is unique, can be localized and robust to noise. Harris corner detector is used for detecting corners.
-
-
+	* unlike edges and flat areas, corners do not suffer from aperture problem. Aperture probelm occurs when there is ambiguity in matching points when we look a very small area
+* Harris corner detector:
+	* Main idea is that corner occurs where there is a strong change in intensity in all directions. For this, auto-correlation is computed between intensities in a window and those in a slightly shifted window. The window which gives strong autocorrelation has a corner.
+	* The autocorrelation equation reduces to the equation of an ellipse by apporximating using taylor series. 
+	* Compute the eigen values of ellipse to find the axis of maximum variation
+		* if both eigen values are small -> flat region (no variation along any axis)
+		* if one eigen value is large while other is small -> edge (variation along only one axis)
+		* if both eigen values are large -> corner (variation along both axis)
+	* there are different measures of 'cornerness' derived from eigen values- Triggs, shi-tomasi etc
+* traditionally, harris corner detection with template matching was used for image matching.	
+* problem with corner keypoint : when the scale of the image changes, the corner may appear as an edge.
+* also, template matching does not work when the image rotates
 
 **5. SIFT**
+* so we needed a keypoint detection which was invariant to scale and rotation, hence SIFT
+* advantages are:
+	* uses local information so robust to occlusion and clutter
+	* distintive so can be used to match with large database of images with many variations
+	* quantity, many features for even small objects
+	* efficient and fast
+
+* main 4 steps:
+	* 
 
 **6. HOG**
 
