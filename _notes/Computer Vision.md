@@ -54,7 +54,7 @@ title: Computer Vision
 	* neighbourhood (context) 
 	* taking derivatives (gradient)
 	* taylor series to approximate a function at a point
-	* eigen vectors and eigen values to reduce dimensionality span the most dominant information space
+	* eigen vectors and eigen values to reduce dimensionality and span the most dominant information space
 	* pseudo-inverse to find inverse of non-square matrix
 
 **2. Filtering**
@@ -76,6 +76,29 @@ title: Computer Vision
 	
 **3. Egde Detection**
 
+* Laplacian of gaussian : taking 2nd derivative of gaussian
+	* smooth the image with gaussian filter
+	* take second derivative in x and y directions
+	* find zero crossings 
+	* compute slope of the zero crossings. Slope tells the strength of the edge.
+	* apply threshold to the slope 
+* Quality of edge:
+	1. true edge (less number of FP)
+	2. robust to noise (less number of FN)
+	3. localized (1 pixel width)
+	4. not too many or too less responses
+* Canny Edge Detector is based on three criteria : 1) good detection (less FN and FP), 2) good localization (as close as possible to true edge), 3) single response contraint (return 1 point only for each edge point)
+* Steps of canny:
+	1. smooth the image with gaussian filter
+	2. compute derivative (gradient)
+	3. compute magnitude and orientation of gradient. Using orientation is the inventive step.
+	4. apply non-maximum suppression
+		* check the magnitude of neighbouring pixels along the edge direction. Mark the pixel with the largest magnitude.
+		Note edge direction (gradient direction) is always perpendicular to edge.
+	5. apply hysterisis threshold
+		* uses dual threshold - high and low
+		* >high -> edge, <low -> no edge, between high-low -> if connected to an edge point then edge else not
+	
 **4. Interest Point Detection**
 
 **5. SIFT**
