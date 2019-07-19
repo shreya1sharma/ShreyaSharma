@@ -121,15 +121,17 @@ title: Computer Vision
 * also, template matching does not work when the image rotates
 
 **5. SIFT**
-* so we needed a keypoint detection which was invariant to scale and rotation, hence SIFT
+* so we needed a keypoint detection which is invariant to scale and rotation, hence SIFT
 * advantages are:
 	* uses local information so robust to occlusion and clutter
-	* distintive so can be used to match with large database of images with many variations
+	* distintiveness so can be used to match with large database of images with many variations
 	* quantity, many features for even small objects
 	* efficient and fast
-
-* main 4 steps:
-	* 
+* main 4 steps (PLOD):
+	1. detect potential key points 
+	2. localize key point
+	3. assign orientation to the keypoint
+	4. decribe the keypoint
 
 **6. HOG**
 
