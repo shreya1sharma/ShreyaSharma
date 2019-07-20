@@ -4,23 +4,22 @@ title: Python tricks
 
 ---
 
-<details open>
+<details>
 <summary> Create a custom color map in matplotlib</summary>
- 
-```python
 
+```python
 def generate_cmap(colors):
-    values = range(len(colors))
+	values = range(len(colors))
     vmax = np.ceil(np.max(values))
     color_list = []
     for v, c in zip(values, colors):
-        color_list.append( ( v/ vmax, c) )
+    	color_list.append( ( v/ vmax, c) )
+    
     return LinearSegmentedColormap.from_list('custom_cmap', color_list)        
-
 
 #Usage 1:   
 
-cm  =  generate_cmap ([ 'moccasin', 'black', 'white' ]) #one color is assigned to one value in array
+cm  =  generate_cmap ([ 'moccasin', 'black', 'white' ]) #one color is assigned to one integer value in array
 plt.imshow(array, cmap = cm)
 plt.show() 
 
@@ -49,7 +48,7 @@ plt.show()
 ```
 </details>
 
-<details open>
+<details>
 <summary> Making a video in OpenCV </summary>
   
 ```python

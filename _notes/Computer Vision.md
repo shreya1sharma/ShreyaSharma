@@ -75,7 +75,19 @@ title: Computer Vision
 	* a filter of size 3x3 covers full gaussian distribution with sigma = 1
 	
 **3. Egde Detection**
-
+	* edges are discontinuities in intensity in an image
+	* several models: step, roof, ramp, spike
+	* noise strongly affects edge detection. To tackle this, neighbourhood info is take into account and smoothing. Smoothing forces the pixels
+	different in neighbourhood to look alike. Amount of smoothing is controlled by sigma.
+	* edge detectors:
+		* gradient operators (1st dereivative) : prewitt, sobel
+		* laplacian of gaussian (2nd derivative) : Marr-Hildreth
+		* gradient of gaussian (Canny)
+	* gradient operators
+		* compute derivatives in x and y direction
+		* compute gradient magnitude
+		* threshold gradient magnitude
+	
 **4. Interest Point Detection**
 
 **5. SIFT**
