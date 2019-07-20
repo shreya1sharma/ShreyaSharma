@@ -76,62 +76,6 @@ title: Computer Vision
 	
 **3. Egde Detection**
 
-* Laplacian of gaussian : taking 2nd derivative of gaussian
-	* smooth the image with gaussian filter
-	* take second derivative in x and y directions
-	* find zero crossings 
-	* compute slope of the zero crossings. Slope tells the strength of the edge.
-	* apply threshold to the slope 
-* Quality of edge:
-	1. true edge (less number of FP)
-	2. robust to noise (less number of FN)
-	3. localized (1 pixel width)
-	4. not too many or too less responses
-* Canny Edge Detector is based on three criteria : 1) good detection (less FN and FP), 2) good localization (as close as possible to true edge), 3) single response contraint (return 1 point only for each edge point)
-* Steps of canny:
-	1. smooth the image with gaussian filter
-	2. compute derivative (gradient)
-	3. compute magnitude and orientation of gradient. Using orientation is the inventive step.
-	4. apply non-maximum suppression
-		* check the magnitude of neighbouring pixels along the edge direction. Mark the pixel with the largest magnitude.
-		Note edge direction (gradient direction) is always perpendicular to edge.
-	5. apply hysterisis threshold
-		* uses dual threshold - high and low
-		*  <low -> no edge, >high -> edge, between high-low -> if connected to an edge point then edge else not
-	
-**4. Interest Point Detection**
-* 3 main components with local features extracted using neighbourhood- 1. Detection 2. Description 3. Matching
-	* Detection : we want to find same points in the two images independently. 
-	* Description : we want to be able to describe each point in order to reliably determine which point goes with which	
-	* Matching : we want to match the corresponding points
-* interest point should have a very expressive texture. The point at which the direction of the boundary of an object changes abruptly.
-* a good interest point detector should detect all true keypoints with well localization and robust to noise.
-* corner is a key point which is unique, can be localized and robust to noise. Harris corner detector is used for detecting corners.
-	* unlike edges and flat areas, corners do not suffer from aperture problem. Aperture probelm occurs when there is ambiguity in matching points when we look a very small area
-* Harris corner detector:
-	* Main idea is that corner occurs where there is a strong change in intensity in all directions. For this, auto-correlation is computed between intensities in a window and those in a slightly shifted window. The window which gives strong autocorrelation has a corner.
-	* The autocorrelation equation reduces to the equation of an ellipse by apporximating using taylor series. 
-	* Compute the eigen values of ellipse to find the axis of maximum variation
-		* if both eigen values are small -> flat region (no variation along any axis)
-		* if one eigen value is large while other is small -> edge (variation along only one axis)
-		* if both eigen values are large -> corner (variation along both axis)
-	* there are different measures of 'cornerness' derived from eigen values- Triggs, shi-tomasi etc
-* traditionally, harris corner detection with template matching was used for image matching.	
-* problem with corner keypoint : when the scale of the image changes, the corner may appear as an edge.
-* also, template matching does not work when the image rotates
-
-**5. SIFT**
-* so we needed a keypoint detection which is invariant to scale and rotation, hence SIFT
-* advantages are:
-	* uses local information so robust to occlusion and clutter
-	* distintiveness so can be used to match with large database of images with many variations
-	* quantity, many features for even small objects
-	* efficient and fast
-* main 4 steps (PLOD):
-	1. detect potential key points 
-	2. localize key point
-	3. assign orientation to the keypoint
-	4. decribe the keypoint
 
 **6. HOG**
 
