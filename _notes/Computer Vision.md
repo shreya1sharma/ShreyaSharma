@@ -90,7 +90,7 @@ different in neighbourhood to look alike. Amount of smoothing is controlled by s
 	* threshold gradient magnitude
 * Laplacian of gaussian : taking 2nd derivative of gaussian
 	* smooth the image with gaussian filter
-	* take second derivative in x and y directions
+	* take second derivative in x and y directions (mexican hat filter)
 	* find zero crossings 
 	* compute slope of the zero crossings. Slope tells the strength of the edge.
 	* apply threshold to the slope 
@@ -144,12 +144,33 @@ different in neighbourhood to look alike. Amount of smoothing is controlled by s
 	2. localize key point
 	3. assign orientation to the keypoint
 	4. describe the keypoint
-
-	
-**4. Interest Point Detection**
-
-**5. SIFT**
-
+* for scale invariance, keypoints need to be detected at several scales. So 2 questions arise:
+	1. how to decide window size (sigma) at each scale?
+	2. how to combine different scales?
+* SIFT relies on spatial coincidence assumption. It means that if edge (zero-crossing) is detected at same location over several scales, then it truly exists.
+* this gave rise to the concept of scale space : plot zero-crossings v/s scale. As we increase scales, number of zero-crossings become lesser.
+* interval tree is another representation of scale space which tells how stable is a zero-crossing across scales. A zero-crossing which can sustain several scales before
+breaking into more zero-crossings is considered stable.
+* in order to create scale space in 2D, we use LOG. Interest points are local maxima in the scale space of LOG. Now the derivatives are computed in 3 directions - X,Y and Scale.
+	* also works as a blob detector (?)
+* To simplify computation of scale space, LOG is approximated by Difference of Gaussian (DOG). Compute Gaussian with different scales (different sigma/filter size), take difference
+of the gaussians.
+* After computing DOG, keypoint is selected by comparing a pixel with neighbourhood at 3 different scales. The maximum point is detected as keypoint.
+* To localize most valuable keypoints out of all potential keypoints, some methods have been proposed. First is to remove point whose DOG value is less than some predefined threshold. Second,
+remove the keypoints that lie on edge by computing eigen values of DOG matrix (similar concept as Harris)
+* To extract orientation of keypoint:
+	* take a nbhd and compute derivatives in X and Y direction- magnitude and orientation
+	* make histogram of orientation to divide nbhd orientations into 36 bins
+	* give magnitude as weight (frequency) to each orientation
+	* in the histogram, plot orientation v/s weight (frequency) and  find the peak. The peak implies the dominant direction at that keypoint.
+* To describe the keypoint, use orientation information as it make the keypoint decription robust to tranformations and lighting variations. Intensity based descriptor is not robust to such changes.
+Steps to make a descriptor:
+	* take 16x16 nbhd around the keypoint pixel. Divide it into 16 blocks each of 4x4.
+	* compute orientation histogram in each block with 8 bins
+	* Flatten all the histograms to make 128 1D feature vector/descriptor (16x8)
+* for matching, find patches that have the most similar appearance or SIFT descriptor using Euclidean Distance.
+* for robustness in matching, take both first match and the second best match into account.
+	* if ratio of first/second best is  high -> select the first match, else the match is ambiguous.
 **6. HOG**
 
 **7. Optical Flow**
