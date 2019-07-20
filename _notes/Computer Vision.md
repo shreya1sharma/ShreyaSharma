@@ -143,7 +143,7 @@ different in neighbourhood to look alike. Amount of smoothing is controlled by s
 	1. detect potential key points 
 	2. localize key point
 	3. assign orientation to the keypoint
-	4. decribe the keypoint
+	4. describe the keypoint
 
 	
 **4. Interest Point Detection**
