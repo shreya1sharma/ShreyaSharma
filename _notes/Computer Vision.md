@@ -235,14 +235,20 @@ Steps to make a descriptor:
 	* second if there is no line in an image, hough transform can wrongly give high votes to some m-c value due to noisy points
 * same method is also used for detecting circles/ellipses/any shape with no analytical expressun
 
-
+**13. OpenCV**
+* C++ based library for computer vision
+* developed by Intel, now maintained by willow garage
+* OpenCV python has two interfaces:
+	* cv : old one uses OpenCV internal datatypes
+	* cv2 : new one uses numpy datatypes
+* In OpenCV images are not stored using the conventional RGB color channels, they are stored in BGR order (the reverse order)
+* normlizing an image = 255*(y-max)/(max-min)
 #### Summary of CV algorithms (algorithm/purpose/use-case)
 * 
 ### To-do
 * Motion
 * 3D
 * Multi-view
-
-[OpenCV python tutorials](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html)
+* Programming computer vision with Python book + [OpenCV python tutorials](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html)
 
 ---
