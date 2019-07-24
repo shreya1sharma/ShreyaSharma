@@ -180,6 +180,23 @@ Steps to make a descriptor:
 **9. Face Recognition**
 
 **10. Stereo**
+* recovering 3D information about an object from a pair of 2D images
+* the 3D information is captured in the form of a depth map. Using the depth map, we can synthesize image from different viewpoints- a useful application in computer graphics.
+* assumes that images are recified. Image rectification is a method of image correction. The images are aligned such that there is displacement only in X direction and NO displacement in Y direction.
+* the depth is computed from disparity. Disparity is the difference in image locations of a same 3D point when projected under perspective of two different cameras (like left and right eye). It arises due to the horizontal difference in location of sensors, known as baseline (parallax). 
+* depth is inversely proportional to disparity. 
+* to compute disparity, we compare patches along the same rows in the left and right images using correlation measures. The patches which give high correlation area a match. Then, the displacement in x direction of the left and right patch gives disparity (block matching method).
+* Important correlations measures are:
+	* Sum of squares difference (SSD)
+	* Normalized correlation 
+	* Mutual correlation
+	* Mutual information
+	* Minimum absolute difference
+* Another method for estimating disparity is Bernard's Stereo method. 
+	* Based on two assumptions - similar intensity and smoothness of disparity
+	* based on these, an energy funcion is defined which is minimized with any minimization (optimization) technique
+	* Bernard's method used simulated annealing
+* Current research is on how to estimate depth map from a single image. For ground truth, depth information can be collected through low cost sensors like Kinect. 
 
 **11. Bag-of-words**
 
