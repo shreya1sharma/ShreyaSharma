@@ -211,10 +211,33 @@ Steps to make a descriptor:
 * Two popular classifiers used in pre-deep learning era were k-means and SVM
 
 **12. Hough Transform**  
+* Hough transform is used to detect shapes in an image- lines, circles, ellipses anfd arbitary shapes
+* Shapes are high-level features while edges and texture are low-level features
+* 3 methods to fit a line on a set of edge points
+	* Least square fit (over constraint)
+	* RANSAC (constraint)
+	* Hough Transform (under constraint)
+* Least squares method: simply linear regression
+	* fails in case of outliers because it considers all points while fitting line
+* RANSAC method (Random Sample Concensus): this method is robust to outliers and noise
+	* Randomly selects two points, estimates a line and finds the error between the estimated line and all other possible points
+	* Since it is controlled by only 2 points at a time, it estimates the most general line model which satisfies maximum number of points.
+	* Assumptions:
+		* majority of the good points agree with the underlying model
+		* bad samples does not consistently agree with the single model
+* The above methods are suitable when the image contains only one line. What if the image contains multiple lines? How to decide which point belongs to which line?
+* To solve this, hough transform was invented. In this method an edge-point in X-Y plane is projected as a line in m-c plane.
+	* Each edge point is giving a vote for the m-c values.
+	* the m-c value which gets maximum votes is selected
+* m becomes infinity in case of vertical lines. To tackle this, instead of m-c plane, parametric plane of radius-theta was introduced
+* however, noise affects hough transform too
+	* if the noise becomes very high, the votes are scattered and becomes difficult to find a single m-c values with maximum votes
+	* second if there is no line in an image, hough transform can wrongly give high votes to some m-c value due to noisy points
+* same method is also used for detecting circles/ellipses/any shape with no analytical expressun
 
 
 #### Summary of CV algorithms (algorithm/purpose/use-case)
-
+* 
 ### To-do
 * Motion
 * 3D
