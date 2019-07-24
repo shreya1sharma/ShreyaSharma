@@ -3,7 +3,6 @@ layout : page
 title: Computer Vision
 
 ---
-
 **1. Overview** 
 * computer vision is the ability of the computers to see 
 * can be divided into 4 broad categories:
@@ -54,7 +53,7 @@ title: Computer Vision
 	* neighbourhood (context) 
 	* taking derivatives (gradient)
 	* taylor series to approximate a function at a point
-	* eigen vectors and eigen values to reduce dimensionality span the most dominant information space
+	* eigen vectors and eigen values to reduce dimensionality, span the most dominant information space
 	* pseudo-inverse to find inverse of non-square matrix
 
 **2. Filtering**
@@ -171,6 +170,11 @@ Steps to make a descriptor:
 * for matching, find patches that have the most similar appearance or SIFT descriptor using Euclidean Distance.
 * for robustness in matching, take both first match and the second best match into account.
 	* if ratio of first/second best is  high -> select the first match, else the match is ambiguous.
+* SIFT is rotation-invariant because we can rotate the patches by the dominant direction to cancels out rotation. Eg. if a patch dominant direction is 45 degrees and the same patch 
+with some rotation has dominant direction 60 degrees, then if we rotate the patches by 45 degrees and 60 degrees respectively, they get alligned to same direction. The
+relative difference is 15 degrees which is rotation-invariant.
+
+*  Other key point detection methods are: SURF, FAST, BRIEF, ORB
 	
 **6. HOG**
 * shows the direction in which the edges (gradients) are most aligned
@@ -310,27 +314,45 @@ determined such that the within class variance is minimized and between class va
 	* cv2 : new one uses numpy datatypes
 * In OpenCV images are not stored using the conventional RGB color channels, they are stored in BGR order (the reverse order)
 * normlizing an image = 255*(y-max)/(max-min)
-#### Summary of CV algorithms (algorithm/purpose/use-case)
-<<<<<<< HEAD
-Laplacian of Gaussian
-Canny edge detector
-harris corner detector
-SIFT
-HOG
-Horn Shunk optical flow
-Lucas kanade optical flow
-Image pyramids
-LK optical flow with pyramids
-Eigen faces
-Fisher faces
 
 
+### Summary of CV algorithms 
+
+Laplacian of Gaussian | Edge detection
+Canny edge detector | Edge detection
+Harris corner detector | Key point detection
+SIFT | Scale and rotation invariant feature transform, keypoint detection + descriptor
+HOG | Feature extraction
+Horn Shunk optical flow | Optical flow
+Lucas Kanade optical flow | Optical flow
+Image Pyramids | Multi-resolution analysis
+LK optical flow with pyramids | Optical Flow
+Eigen faces | Face recognition
+Fisher faces | Face recognition
+Disparity map | Depth estimation
+Bag-of-words | Feature extraction
+K-means and SVM | Classifiers
+Least-squares | Line-fitting
+RANSAC | Line-fitting robust to noise
+Hough transform | Detect shapes in image (multiple lines, circles, ellipses, arbitary shape)
+KLT Tracking | Object tracking
+CamShift | Object tracking
+MeanShift | Object tracking
+
+### Summary of Mathematical tools
+1. Derivative - df/dx
+2. Gradients - df/dx, df/dy
+3. Jaccobian - matrix of first order partial derivatives (1st order optimization)
+4. Hessian - matrix of second order  partial derivatives (2nd order optimization)
+5. Taylor series - approximation of function at a point using its derivatives
+6. Pseudo-inverse - finding inverse of a non-square matrix
+7. Eigen values and eigen vectors - finding the axis of maximum variation (dimensionality reduction)
 
 ### To-do
-* Basic image processing (texture, morphology, compression)
 * Global Motion
-* 3D
+* Camera callibration and 3D reconstruction
 * Multi-view
+* Structure from motion
 * Programming computer vision with Python book + [OpenCV python tutorials](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html)
 
 ---
