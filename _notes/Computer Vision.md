@@ -199,8 +199,19 @@ Steps to make a descriptor:
 * Current research is on how to estimate depth map from a single image. For ground truth, depth information can be collected through low cost sensors like Kinect. 
 
 **11. Bag-of-words**
+* Bag-of-words is a histogram of features (textons) in an image
+* Originally designed for comparing two documents. Plotting histogram of words in each document and matching the histograms. If histograms are very similar, the documents match.
+* In images, the word is represented by a visual word which represents a particular pattern/texture/feature
+* Image classification with bag-of-words has 4 steps:
+	* Extract Patches of key-points from image (Harris, SIFT, Dense)
+	* Describe patches with a feature descriptor (SIFT, HOG)
+	* Clusters the decriptors in feature space. Each cluster repesents a visual word.
+	* Create histogram of visual words (bag-of-features), ie how many patches in each cluster
+* A classifier compares two images using their bag-of-words. If their bag-of-words are similar, the two images are assigned same class else not.
+* Two popular classifiers used in pre-deep learning era were k-means and SVM
 
 **12. Hough Transform**  
+
 
 #### Summary of CV algorithms (algorithm/purpose/use-case)
 
