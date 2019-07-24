@@ -233,6 +233,7 @@ can be applied.
  from high to low. The u,v vector is computed using LK at the lowest resolution and then propagated till the highest resolution.
  
 **9. Face Recognition**
+<<<<<<< HEAD
 * Face recognition is matching an unknown face from a database of faces
 * Naive approach: take face patches and flatten each face patch to make face feature vector. Store these fv in a database. During recognition, a vector corresponding to the unknown face 
 is compared with all the vectors in the database. The face in the database which is closest to the unknown face is declared as the recognized face.
@@ -335,3 +336,5 @@ Fisher faces
 * Programming computer vision with Python book + [OpenCV python tutorials](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html)
 
 ---
+=======
+>>>>>>> c600e8ede04e17cdd1f749f3958da82d6b8f3635
