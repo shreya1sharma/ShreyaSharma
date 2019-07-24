@@ -163,7 +163,7 @@ remove the keypoints that lie on edge by computing eigen values of DOG matrix (s
 	* make histogram of orientation to divide nbhd orientations into 36 bins
 	* give magnitude as weight (frequency) to each orientation
 	* in the histogram, plot orientation v/s weight (frequency) and  find the peak. The peak implies the dominant direction at that keypoint.
-* To describe the keypoint, use orientation information as it make the keypoint decription robust to tranformations and lighting variations. Intensity based descriptor is not robust to such changes.
+* To describe the keypoint, use orientation information as it make the keypoint description robust to tranformations and lighting variations. Intensity based descriptor is not robust to such changes.
 Steps to make a descriptor:
 	* take 16x16 nbhd around the keypoint pixel. Divide it into 16 blocks each of 4x4.
 	* compute orientation histogram in each block with 8 bins
@@ -171,13 +171,80 @@ Steps to make a descriptor:
 * for matching, find patches that have the most similar appearance or SIFT descriptor using Euclidean Distance.
 * for robustness in matching, take both first match and the second best match into account.
 	* if ratio of first/second best is  high -> select the first match, else the match is ambiguous.
+	
 **6. HOG**
-
+* shows the direction in which the edges (gradients) are most aligned
+* Steps:
+	* compute centered horizontal and vertical gradients without smoothing
+	* compute gradient magnitude and orientation 
+	* divide the image into 16x16 blocks with 50% overlap. Total = 105 blocks
+	* divide each block into 2x2 cells each of size 8x8
+	* quantize the gradient orientation into 9 bins
+		* vote of each direction is determined by magnitude
+		* interpolate votes bi-linearly between neighbouring bin center
+		* votes can also be weighted with Gaussian to downweight the pixels near the edges of the block
+	* concatenate histograms to make feature : 105x9x4 = 3780 dimensions
+		
 **7. Optical Flow**
-
+* a 2D vector which gives the displacement of each pixel as compared to the previous frame, i.e. how much the pixel has moved from the first frame to the second one
+* many applications
+	* motion based segmentation
+	* structure from motion
+	* image alignment (video stabilization)
+	* video compression
+* first method was developed by Horn and Shunk using brightness constancy constraint and taylor series. 
+	* fxU + fyV + ft = 0 -> under-constrained system (1 equation 2 unknowns); fx -> gradient in x direction, fy -> gradient in y direction, ft -> gradient in temporal direction
+	* The u, v vector can be broken down into two components - parallel flow (p) and normal flow (d). d can be determined with derivatives, p is unknown and variable.
+* second method was developed by Lucas and Kanade. Instead of taking one pixel, they considered nbhd of pixels to compute optical flow.
+	* now over-constrained system - 2 unknowns , >2 equations
+	* equations can be solved with 2 methods:
+		 * Pseudo-inverse
+		 * Least-squares
+* Problem : above methods only worked when motion was small. If the object moves faster, the brightness changes rapidly and then the brightness constancy rule does not apply.
+* To solve this, image pyramids are used. Using pyramid, we decrease the resolution of images. By decreasing resolution, the large motion can be reduced to small motion and then the above methods
+can be applied.
+	
 **8. Image Pyramids**
-
+* representing an image in multiple scales- bottom level (highest resolution), top level(lowest resolution)
+* applications : image compression, image composting (blending), optical flow
+* Two types of pyramids : gaussian and laplacian
+* Two main operations - reduce and expand
+* convolution mask to create a pyramid is a) seperable (2D -> 1D) and 2)symmetric. Can take different shapes like gaussian or triangle, depends on weight values.
+* laplacian pyramids are derived from gaussian pyramids
+	* similar to edge detected images so captures high frequency content at different scales
+	* most pixels are zero so can be used for image compression because the entire image can be expressed with less number of bits/pixel
+* image compression with laplacian pyramid
+	* Coding 
+		* compute gaussian pyramid
+		* compute laplacian pyramid
+		* code laplacian pyramid
+	* Decoding
+		* decode laplacian pyramid
+		* compute gaussian pyramid from laplacian pyramid
+		* the highest resolution image is the reconstructed image
+* quantization is often used in coding to assign a single value/grade to a range of values
+* current best method for image compression are wavelets which are also based on image pyramids
+* image blending can be done with pyramids
+	* compute laplacian pyramid of 1st image
+	* compute laplacian pyramid of 2nd image
+	* compute combined laplacian pyramid  (Lc) by copying left half pixels from the first image and right half pixels from the second image
+	* reconstruct combined image from Lc
+* lucas-kanade method use pyramids to compute optical flow in case of large motion. Pyramids reduce the large motion into small motion by changing the image resolution 
+ from high to low. The u,v vector is computed using LK at the lowest resolution and then propagated till the highest resolution.
+ 
 **9. Face Recognition**
+* Face recognition is matching an unknown face from a database of faces
+* Naive approach: take face patches and flatten each face patch to make face feature vector. Store these fv in a database. During recognition, a vector corresponding to the unknown face 
+is compared with all the vectors in the database. The face in the database which is closest to the unknown face is declared as the recognized face.
+* Problem : very high dimensional and not robust to noise
+* Solution: reduce dimensionality of fv by computing eigen values and eigen vectors (Eigen Faces)
+* Now each face can be represented as a linear combination of eigen vectors. The linear relationship coefficients are computed for each training image, and mean all the coefficients for one
+person represent its face model. The unknown face is also transformed into face space and euclidean distance is computed with all face means.
+* the euclidean distance do not consider the eigen values, so mahanalobis distance is used which takes into account eigen values.
+* two main problems in face recognition are: within class and between class variance
+* to deal with this, LDA based method was introduced called fisher faces. Here the goal was to find a parameterized line such that when the samples with D-dimensional vector are projected on this line,
+they are best separated or the distance between their means is maximized. This method takes into account the within class variance and between class variance. The parameters of the line are
+determined such that the within class variance is minimized and between class variance is maximized.
 
 **10. Stereo**
 
@@ -186,9 +253,21 @@ Steps to make a descriptor:
 **12. Hough Transform**  
 
 #### Summary of CV algorithms (algorithm/purpose/use-case)
+Laplacian of Gaussian
+Canny edge detector
+harris corner detector
+SIFT
+HOG
+Horn Shunk optical flow
+Lucas kanade optical flow
+Image pyramids
+LK optical flow with pyramids
+Eigen faces
+Fisher faces
 
 ### To-do
-* Motion
+* Basic image processing (texture, morphology, compression)
+* Global Motion
 * 3D
 * Multi-view
 
