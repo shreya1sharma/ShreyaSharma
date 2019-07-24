@@ -5,12 +5,10 @@ title: Computer Vision
 ---
 **1. Overview** 
 * computer vision is the ability of the computers to see 
-* can be divided into 4 broad categories:
+* can be divided into 5 broad categories:
 	1. low-level vision : image to image 
-		* image processing techniques
+		* image processing techniques- filtering, edge detection, contrast enhancement, morphology, texture, image transforms, contours
 		* template matching
-		* optical flow
-		* motion models
 	2. mid-level vision : image to features
 		* interest point detection
 		* harris corner detector
@@ -19,7 +17,6 @@ title: Computer Vision
 		* Hough Transform
 		* RANSAC, Least Squares
 		* Segmentation and clustering (watershed, grabcut etc.)
-		* foreground extraction
 		* deformable contours
 	3. high-level vision : features to analysis [Deep learning part]
 		* face recognition
@@ -27,15 +24,21 @@ title: Computer Vision
 		* OCR
 		* emotion recognition
 		* action recognition
-	4. multiview
+	4. multiview and 3D
 		* local-invariant feature detection and decription
 		* image tranformations and alignment
 		* planar homography
 		* epipolar geometry and stereo
 		* stereo vision
-		* object tracking
 		* 3D scene understanding
 		* 3D segmentation and modelling
+	5. video analysis
+		* optical flow
+		* object tracking
+		* motion estimation
+		* background-foreground extraction
+		* structure from motion
+		
 * Image formation depends on - 
 	* light source
 	* camera (intrinsic and extrinsic parameters)
@@ -172,7 +175,7 @@ Steps to make a descriptor:
 	* if ratio of first/second best is  high -> select the first match, else the match is ambiguous.
 * SIFT is rotation-invariant because we can rotate the patches by the dominant direction to cancels out rotation. Eg. if a patch dominant direction is 45 degrees and the same patch 
 with some rotation has dominant direction 60 degrees, then if we rotate the patches by 45 degrees and 60 degrees respectively, they get alligned to same direction. The
-relative difference is 15 degrees which is rotation-invariant.
+relative difference is 15 degrees which is rotation-invariant. (refer stanford slide)
 
 *  Other key point detection methods are: SURF, FAST, BRIEF, ORB
 	
@@ -342,17 +345,21 @@ MeanShift | Object tracking
 ### Summary of Mathematical tools
 1. Derivative - df/dx
 2. Gradients - df/dx, df/dy
-3. Jaccobian - matrix of first order partial derivatives (1st order optimization)
-4. Hessian - matrix of second order  partial derivatives (2nd order optimization)
+3. Jaccobian - matrix of first order partial derivatives of a function (1st order optimization)
+4. Hessian - matrix of second order  partial derivatives of a function(2nd order optimization)
 5. Taylor series - approximation of function at a point using its derivatives
 6. Pseudo-inverse - finding inverse of a non-square matrix
 7. Eigen values and eigen vectors - finding the axis of maximum variation (dimensionality reduction)
+8. defining energy function for optimization
 
 ### To-do
-* Global Motion
-* Camera callibration and 3D reconstruction
-* Multi-view
+* Motion estimation
 * Structure from motion
+* Multi-view and 3D
 * Programming computer vision with Python book + [OpenCV python tutorials](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html)
+
+### References
+1. Mubarak Shah lectures
+2. CS 161 Stanford Computer vision course
 
 ---
