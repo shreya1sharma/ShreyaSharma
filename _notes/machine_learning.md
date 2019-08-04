@@ -40,3 +40,63 @@ title: Machine Learning and Deep Learning
 References:
 1. [An Overview of Multi-Task Learning in Deep Neural Networks](http://ruder.io/multi-task/)
 2. [Multitask learning: teach your AI more to make it better](https://towardsdatascience.com/multitask-learning-teach-your-ai-more-to-make-it-better-dde116c2cd40)
+
+
+* Why deep learning?
+- conventional machine learning methods can not utilize the power of big data
+
+* Why sudden boom?
+- lots of data
+- computational power
+- new algorithms for fast optimization
+
+* types of data
+- structured
+- unstructured (deep learning very strong here)
+
+* Logistic regression
+- classification algorithm
+![image]({{site.url}}{{site.baseurl}}/assets/images/lr.jpg){:style="centre;margin-right: 200px;margin-top: 7px;" height="400px" width="400px" }
+- steps:
+	forward propagation
+	- data : (x,y)
+	- compute z = w1x1+w2x2+b
+	- compute a = sigmoid(z)
+	- compute loss = L(a,y)
+	- compute cost J(w) = average loss calculated over all training samples
+	
+	backward propagation
+	- compute gradient of loss/cost wrt to weights : dL/dw = dL/da * dL/dz * dz/dw
+	- update weights using gradient descent: w := w - alpha*dL/dw
+	
+	compute forward propagation again
+	
+* loss function
+- mean squared error : does not work well in logistic regression (?)
+- cross-entropy : -log(likelihood)
+
+* Shallow Neural Network
+- series of logistic regression units
+![image]({{site.url}}{{site.baseurl}}/assets/images/nn.jpg){:style="centre;margin-right: 200px;margin-top: 7px;" height="400px" width="400px" }
+
+
+* Activation functions
+1. Sigmoid - binary classification, output layer
+2. Tanh - normalized sigmoid, centers the data to avoid extremes which improves learning
+3. Relu - removes negative activations, hidden layer, removes vanishing gradient
+4. Leaky relu - to avoid undefined slope at (0,0)
+
+- with no activation a = z, so no non-linearity is learnt by the network. Thus, the whole neural network simply becomes linear regression
+
+* Initialization of weights
+- if all weights are intialized to zero, all activations are same, all nodes have same effect on output, all weights are 
+updated by same amount. Al units learn exactly the same features - no new learning
+- to break this symmetry, weights are initialized randomly
+- also, weights should be small to prevent extreme values of activation which cause vanishing gradient
+	
+* Deep neural network 
+- learn more complex features than shallow networks
+- require lot of data and computation power
+	
+	
+
