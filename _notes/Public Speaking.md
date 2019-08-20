@@ -25,15 +25,16 @@ title: Public Speaking
 
 ## BRIEF Technique
 
-B : Believe in yourself
-R : Rehearse
-I : YAAD NAHI!
-E : YAAD NAHI!
+B : Believe in yourself\\
+R : Rehearse\\
+I : YAAD NAHI!\\
+E : YAAD NAHI!\\
 F : Fun, enjoy the moment!
+
 
 ## Nice videos:
 
-[Five Basic Public Speaking Tips - Toastmasters International](https://www.youtube.com/watch?v=AykYRO5d_lI)
+[Five Basic Public Speaking Tips - Toastmasters International](https://www.youtube.com/watch?v=AykYRO5d_lI)\\
 [Public Speaking For Beginners - Alex Lyon](https://www.youtube.com/watch?v=i5mYphUoOCs) (Full series is good)
 
 ---
