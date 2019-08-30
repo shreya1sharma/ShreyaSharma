@@ -51,12 +51,11 @@ title: Goal Setting
     
    **My ideal day contains time for**
    * Making food and cleaning
-   * Exercise
-   * Office goals
+   * Exercise and praying
+   * Office work
    * Self-study 
    * Hobbies
    * Family
-   * No-work time
+   * Doing nothing
    * Commuting and random chores
-   
 ---
