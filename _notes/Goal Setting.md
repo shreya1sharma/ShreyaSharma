@@ -1,3 +1,10 @@
+
+---
+layout : page
+title: Goal Setting
+
+---
+
 **Why Goal Setting?**
 * to organize my life and living intentionally each day
 
