@@ -47,7 +47,7 @@ title: Goal Setting
    * Review quarterly goals in-depth 
    
    **How to set good goals**
-    * use SMART technique for short-term goals (monthly and quarterly goals)
+     * use SMART technique for short-term goals (monthly and quarterly goals)
     
    **My ideal day contains time for**
    * Making food and cleaning
@@ -59,3 +59,4 @@ title: Goal Setting
    * No-work time
    * Commuting and random chores
    
+---
