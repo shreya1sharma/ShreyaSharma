@@ -27,7 +27,7 @@ for a project.
   * study materials
 - Skillset/knowledge needed
 - Key deliverables using [Work Breakdown Structure](https://www.workamajig.com/blog/guide-to-work-breakdown-structures-wbs)
-- [Project schedule](https://www.teamgantt.com/blog/gantt-chart-example)
+- [Project schedule](https://www.teamgantt.com/blog/gantt-chart-example) - task, duration, person responsible, resources needed
 - Progress tracking - weekly meeting and reports, daily log, monthly outputs
 
 ### Points to keep in mind
