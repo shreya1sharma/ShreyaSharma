@@ -9,8 +9,7 @@ News and articles covering interesting use-cases and developments in the followi
 * machine learning and AI,
 * data science.
 
-1. **AI for Earth**
-
+1. **AI for Earth**\
 Microsoft initiative to monitor earth using geospatial analytics and machine learning.
 Focus areas: agriculture, climate change, biodiversity and water.\\
 [AI for Earth](https://www.microsoft.com/en-us/ai/ai-for-earth?activetab=pivot1%3aprimaryr6)\\
