@@ -19,9 +19,9 @@ Focus areas: agriculture, climate change, biodiversity and water.\\
 Interim fiscal budget announced plan to develop a national AI portal and center to support AI research, skill-development and startups in India.\\
 [India to develop a national AI portal and center](https://www.geospatialworld.net/blogs/indian-finance-minister-national-ai-portal/)
 
-3. **Intel AI in remote sesning** [22 May 2018]
+3. **Intel AI in remote sensing** [22 May 2018]\\
 [Deep Learning for Remote Sensing](https://www.intel.ai/deep-learning-for-remote-sensing/#gs.6f2vcr)
 [SpaceNet and Intel: Remote Sensing Data for Deep Learning](https://www.intel.ai/spacenet-and-intel/#gs.6f2vz2)
 
-4. **Capella Space** [26 Mar 2019]
+4. **Capella Space** [26 Mar 2019]\\
 [Deep Learning and SAR Applications](https://www.capellaspace.com/deep-learning-and-sar-applications/)
