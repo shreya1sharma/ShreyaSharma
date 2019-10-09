@@ -10,6 +10,7 @@ find options starting/path expression
 ```bash
 find /home -name *.jpg 	# to find all .jpg files in the /home and sub-directories.
 ```
+
 **cp**: to copy a file from one place to another
 - syntax:\
 cp SOURCE DEST\
@@ -25,6 +26,7 @@ cp file.doc /temp             #to copy file to another directory
 cp main.c demo.h lib.c /temp  #to copy multiple files
 cp * /temp                    #to copy all files
 ```
+
 **rm**: to remove or delete a file or directory
 - syntax:\
 rm filename\
@@ -52,6 +54,7 @@ rm -r temp
 rm -rf temp          #VERY DANGEROUS!!! Removes a directory and all its contents without prompting
 rm -r *              #VERY DANGEROUS!!! This will delete every file and every directory you have.
 ```
+
 **mv**: to move a file from one directory location to another. It also lets you rename a file 
 - syntax:\
 mv [OPTION] old_filename new_filename
