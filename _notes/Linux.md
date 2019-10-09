@@ -58,5 +58,6 @@ mv [OPTION] old_filename new_filename
 
 - example:
 ```bash
-mv file.pdf temp
+mv file1.pdf FILE1.pdf    #to rename a file
+mv file.pdf temp          #to copy the pdf to directory temp
 ```
