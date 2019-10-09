@@ -55,7 +55,7 @@ rm -r *              #VERY DANGEROUS!!! This will delete every file and every di
 **mv**: to move a file from one directory location to another. It also lets you rename a file 
 - syntax:\
 mv [OPTION] old_filename new_filename
-
+mv SOURCE DIRECTORY\
 - example:
 ```bash
 mv file1.pdf FILE1.pdf    #to rename a file
