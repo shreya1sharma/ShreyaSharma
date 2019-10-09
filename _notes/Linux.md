@@ -12,7 +12,6 @@ find options starting/path expression
 find /home -name *.jpg 	# to find all .jpg files in the /home and sub-directories.
 ```
 **cp** : to copy a file from one place to another
-
 - syntax:\
 cp SOURCE DEST\
 cp SOURCE DIRECTORY\
@@ -20,7 +19,7 @@ cp SOURCE1 SOURCE2 SOURCE3 SOURCEn DIRECTORY\
 cp [OPTION] SOURCE DEST\
 cp [OPTION] SOURCE DIRECTORY\
 
-- example:\
+- example:
 ```bash
 cp file.doc newfile.doc       #to make copy of a file
 cp file.doc /temp             #to copy file to another directory
