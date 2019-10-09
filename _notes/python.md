@@ -17,6 +17,7 @@ PyCharm is IDE. It integrates with IPython Notebook, has an interactive Python c
 
 Jupyter Notebook was born out of IPython in 2014. It is a web application based on the server-client structure, and it allows you to create and manipulate notebook documents - or just “notebooks”. The Jupyter Notebook supports markdowns, allowing you to add HTML components from images to videos. Thanks to Jupyter, you can easily see and edit your code in order to create compelling presentations. For instance, you can use data visualization libraries like Matplotlib and Seaborn and show your graphs in the same document where your code is. Besides all of this, you can export your final work to PDF and HTML files, or you can just export it as a .py file. In addition, you can also create blogs and presentations from your notebooks.
 
+**Tutorials**
 [Install PyCharm and Anaconda (Windows /Mac/Ubuntu)](https://medium.com/@GalarnykMichael/setting-up-pycharm-with-anaconda-plus-installing-packages-windows-mac-db2b158bd8c)
 
 [Jupyter Notebook Tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook)
