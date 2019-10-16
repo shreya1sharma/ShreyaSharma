@@ -29,6 +29,7 @@ for a project.
 - Key deliverables using [Work Breakdown Structure](https://www.workamajig.com/blog/guide-to-work-breakdown-structures-wbs)
 - [Project schedule](https://www.teamgantt.com/blog/gantt-chart-example) - tasks, duration, person responsible, resources needed, milestones
 - Progress tracking - weekly meeting and reports, daily log, monthly outputs
+
 [Tools for project management in research](https://ccts.osu.edu/content/project-management-research)
 
 ### Points to keep in mind
