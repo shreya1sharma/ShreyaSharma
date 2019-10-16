@@ -18,7 +18,8 @@ title: Remote Sensing
 -	Introduction to SAR (session 1 and session 2)\
 https://arset.gsfc.nasa.gov/disasters/webinars/intro-SAR?_ga=2.95312859.61162869.1571190884-2083543959.1502269551
 
--	Detailed Tutorial on SAR (attached document)
+-	Detailed Tutorial on SAR \
+http://www2.geog.ucl.ac.uk/~mdisney/teaching/PPRS/PPRS_7/esa_sar_tutorial.pdf
 
 -	Microwave remote sensing course\
 https://radar.community.uaf.edu/#
