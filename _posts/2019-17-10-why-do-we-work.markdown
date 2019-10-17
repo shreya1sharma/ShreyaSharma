@@ -10,6 +10,6 @@ I tried to view the thought from multiple view-points. I thought that money is o
 
 Work gives us a purpose in life. It is one of the reasons to wake-up each day and put out our best version to the world. Work enables us to set goals, aligns our body and mind to achieve them and makes us feel satisfied at the end of the day. This sense of purpose and achievement is what makes human work each day. If we do nothing all day, there is a hollowness in our life because we don’t grow and do not make an impact on the world. We must understand that there may be some challenges in work, some parts may be boring, and some parts may be too difficult but WORK IS IMPORTANT. When we do our work with total engagement and honesty, we respect our self. We just have to figure out is how to make our work more interesting and impactful.
 
-So, that’s it. This answer is good for me now and gives peace to my mind  Hopefully, I won’t get the same thought again. I am inspired to work more today. 
+So, that’s it. This answer is good for me now and gives peace to my mind :) Hopefully, I won’t get the same thought again. I am inspired to work more today. 
 
 
