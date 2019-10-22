@@ -27,8 +27,8 @@ title: Public Speaking
 
 B : Believe in yourself\\
 R : Rehearse\\
-I : YAAD NAHI!\\
-E : YAAD NAHI!\\
+I : Be intertesting\\
+E : You are the expert\\
 F : Fun, enjoy the moment!
 
 
