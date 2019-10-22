@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Neural Pocket Open House Event"
-date:   2019-10-22 00:20:26 +0900
+date:   2019-10-21 00:20:26 +0900
 categories: event
 ---
 This post is about my experience at Neural Pocket, an AI start-up based in Tokyo. I got an opportunity from a friend to attend their open house where they showed their technologies.
