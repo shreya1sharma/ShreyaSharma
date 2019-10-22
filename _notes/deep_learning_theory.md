@@ -1,6 +1,6 @@
 ---
 layout : page
-title: Deep Learning
+title: Deep Learning Theory
 
 ---
 
