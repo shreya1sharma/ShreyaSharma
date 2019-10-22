@@ -46,11 +46,33 @@ This was pretty intersting presented by a researcher from Sony. He showed how we
 - His vision is to productize/commercialize AI and build novel business applications.
 - His start-up main interest is in applying AI in manufacturing and mobility in the the long term, but they have started with fashion industry because it is very new AI field and many commercial applicaitions can be developed.
 - In order to expand towards manufacturing and mobility, he is focussing on developing edge devices becasue they can be easily installed at user end and can collect data, thereby can expand their scale rapidly.
--
+- Started *Idea Camp* within company where employees from different departments- engineering, business, data science, research can come up together to share business ideas. The goal is to share amd develop ideas fast and do not waste time in making beautiful presentations.
+- Also focus on good quality data collection, so have developed in-house systems and user-interfaces to collect and annotate data from scratch. Because else AI is garbage in, garbage out.
+- Stays up-to-date with market trends through 3 sources-
+  - Former companies network (McKinsey)
+  - CTO advice
+  - Reading local articles and discussion with employees
+- Does not believe in moving to other countries and regions to attend conferences just to understand trends; local information and network is sufficient.
 
 ### Interaction with CTO
 
+- CTO has been a former member at CERN and co-author of Higgs Boson paper
+- Reads 3 papers/day ~1000 papers/year which is mind-blowing
+- I asked about how do you keep up with research developments. He advised that most of the papers just show incremental success, say 2%. Those papers are not worthy to read. The focus should be on new idea and approaches even if the initial results are not so impressive. Example: self-supervised paper from Google.
+- Tips to read papers
+  - Have a problem in mind first. Then, read the papers to understand the problem from different viewpoints and learn the tools/techniques to solve that problem. Finally, code one of the techniques.
+  - Believe that whatever problem you are facing in your current project/topic, you will find a paper to solve it.
+
+### My Take-away Lessons
+
+The event was pretty informative for me and for the first time I interacted directly with any start-up executives. Following are some lessons I learnt.
+
+- Look for innovative ways to use AI, tap the unexplored fields
+- Think end-to-end from business persepective (example edge computing)
+- Use local information sources and network to understand trend
+- Good quality data is a key for AI start-up
+- Have a problem in mind and read worthy papers to solve it
 
 
-### Take-away Lessons
+That's all!
 
