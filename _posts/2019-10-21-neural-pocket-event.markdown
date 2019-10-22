@@ -11,24 +11,42 @@ Neural Pocket is an AI start-up in fashion industry based in Tokyo and gradually
 ### Technologies
 
 **1. Fashion Trend Analysis**
+
 A dashboard shows fashion analytics about which style is popular, which color is preferred, which combination of clothes are more likely to sell. Target customers are apparal industry and fashion industry (example Uniqlo). The technology helps them th understand their customer preferences and prevent wastage of resources in creating useless or low-profit clothes.
 
 **2. Digital Marketing Display Screen**
+
 A smart screen which displays target-focussed ads to increase revenue of the advertising industries. The 
 screen is places outside stores or public areas to capture crowd attention. When a person sees at the screen, his/her age, gender, persona is estimated in real-time and an advertisment matching his/her personality and the one he/she might be interested in is displayed. The estimation process can also take other contextual factors into account like if two people are walking together then they may be a couple in which case the screen shows couple-centric ads. Target customers are adertising agencies who take subscription-like service to post ads and shop owners who buy the screen to understand their customer behavior. The screen also saves the purchasing history and behaviour of the customers in a database.
 
 **3. Smart-kun**
-A mobile 
+
+A mobile phone application to prevent road accidents. The app is installed in the car owner mobile and shows real-time distance between the owner car and the surrounding cars while driving. The app flags a warning if the distance is too close, thereby preventing road accidents. Good point is that the car manufactures does not have to make any modifications in the car design. The app does all work and works really fast due to edge computing. Target customers are individuals and smart city related companies.
 
 **4. Person/Car Tracking**
 
+This technology is may be related to smart-city and surveillance purposes. They installed cameras at certain locations in a street and using the videos, mapped the routes of each persin on a large scale area map. In the large map, we can see the trajectory of each person and the heat map of crowd. Target customers must be related to city planners and suveillance agencies, not very sure. Similar concept with car tracking.
 
 **5. Edge Devices**
 
+Edge computinf is essentially needed for productization of AI. They are developing three levels of edge devices based on task complexity and platform - low, medium and high. 'Low' level devices require less computing power and work on less complex tasks, basically for mobile phones. 'High' level devices require high computing power and work in more complex tasks, basically for computers/servers at user end. They displayed several edge computing boxes that they have developed and how they can be used to expand the scale of AI applications.
+
+### Some Other Cool Ideas
+**1. Warehouse Box Sizes from Single Camera Image**
+
+This was an intership student project where he uses a single camera image to estimate the size of a box - height, width and depth using corner points and edges. It can be used in warehouse management and counting stocks.
+
+**2. Using Slack as Message Broadcaster**
+
+This was pretty intersting presented by a researcher from Sony. He showed how we can build an API in slack and use it as a notification tool. He built a computer vision application where if someone crosses by your office door, you get a notification on slack.
 
 ### Interaction with CEO
 
-
+- I got a chance to interact with the CEO and ask about his vision and mission.
+- His vision is to productize/commercialize AI and build novel business applications.
+- His start-up main interest is in applying AI in manufacturing and mobility in the the long term, but they have started with fashion industry because it is very new AI field and many commercial applicaitions can be developed.
+- In order to expand towards manufacturing and mobility, he is focussing on developing edge devices becasue they can be easily installed at user end and can collect data, thereby can expand their scale rapidly.
+-
 
 ### Interaction with CTO
 
