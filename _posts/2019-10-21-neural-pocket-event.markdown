@@ -34,11 +34,11 @@ Edge computinf is essentially needed for productization of AI. They are developi
 ### Some Other Cool Ideas
 **1. Warehouse Box Sizes from Single Camera Image**
 
-This was an intership student project where he uses a single camera image to estimate the size of a box - height, width and depth using corner points and edges. It can be used in warehouse management and counting stocks.
+This was a project by an internship student where he uses a single camera image to estimate the size of a box - height, width and depth using corner points and edges. It can be used in warehouse management and counting stocks.
 
 **2. Using Slack as Message Broadcaster**
 
-This was pretty intersting presented by a researcher from Sony. He showed how we can build an API in slack and use it as a notification tool. He built a computer vision application where if someone crosses by your office door, you get a notification on slack.
+This was pretty intersting application presented by a researcher from Sony. He showed how we can build an API in slack and use it as a notification tool. He built a computer vision application where if someone crosses by your office door, you get a notification on slack.
 
 ### Interaction with CEO
 
