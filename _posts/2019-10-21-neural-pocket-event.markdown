@@ -57,7 +57,7 @@ This was pretty intersting application presented by a researcher from Sony. He s
 ### Interaction with CTO
 
 - CTO has been a former member at CERN and co-author of Higgs Boson paper
-- Reads 3 papers/day ~1000 papers/year which is mind-blowing
+- Reads 3 papers/day, ~1000 papers/year which is mind-blowing!
 - I asked about how do you keep up with research developments. He advised that most of the papers just show incremental success, say 2%. Those papers are not worthy to read. The focus should be on new idea and approaches even if the initial results are not so impressive. Example: self-supervised paper from Google.
 - Tips to read papers
   - Have a problem in mind first. Then, read the papers to understand the problem from different viewpoints and learn the tools/techniques to solve that problem. Finally, code one of the techniques.
@@ -75,4 +75,3 @@ The event was pretty informative for me and for the first time I interacted dire
 
 
 That's all!
-
