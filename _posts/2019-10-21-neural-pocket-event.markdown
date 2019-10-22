@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Neural Pocket Open House Event"
-date:   2019-10-21 00:20:26 +0900
+date:   2019-10-21 
 categories: event
 ---
 This post is about my experience at Neural Pocket, an AI start-up based in Tokyo. I got an opportunity to learn about its technologies and interact with its executive members at an event called Open House. Here are my notes from the event.
 
-Neural Pocket is an AI start-up in fashion industry currently and moving towards building AI applications for smart city, mobility and manufacturing industries.
+Neural Pocket is an AI start-up in fashion industry and moving towards building AI applications for smart city, mobility and manufacturing industries.
 
 ### Technologies
 
