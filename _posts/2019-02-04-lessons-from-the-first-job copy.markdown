@@ -31,4 +31,4 @@ On 3rd October 2018, I completed two years in my first job as a researcher at NE
 22. Don't get stuck in a problem. Be a problem solver and make your way out of the chaos as fast as you can.
 23. Keep a planner for the entire year to plan and track your goals, habits, achievements and anything you want to log.
 24. Do check all your organizational systems per month.
-25. Clearly define your goal and milestones before starting any development/implementation.
+25. First clearly define your goal and milestones and then start any development/implementation.
