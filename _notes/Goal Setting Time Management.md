@@ -48,7 +48,7 @@ title: Goal Setting and Time Management
    
    **How to set good goals**
    
-     * use SMART technique for short-term goals (monthly and quarterly goals)
+   * use SMART technique for short-term goals (monthly and quarterly goals)
     
    ## Time Management
    
