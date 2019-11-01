@@ -28,6 +28,7 @@ title: Data Structures and Algorithms
 3. Recursion 
 4. Backtracking
 5. Dynamic Programming
+6. Divide and conquer
 
 
 **Hash Tables**
