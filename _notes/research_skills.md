@@ -70,7 +70,7 @@ That’s it folks. I hope my 7 tips will make your paper reading process more en
 </details>
 	
 <details>
-<summary> Research Survey </summary>
+<summary> Survey in Research </summary>
   
 	• Break survey into 2 parts - literature survey and market survey
 		a. Literature survey - academic point of view
