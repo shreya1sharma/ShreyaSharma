@@ -1,3 +1,9 @@
+
+---
+layout : page
+title: Research Skills
+---
+
 <details>
 <summary> Research Survey </summary>
   
