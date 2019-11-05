@@ -30,3 +30,8 @@ It depends on the circumstances. Market driven companies usually benefit from co
 
 [https://inbounddigital.net/digital-marketing-blog/market-driven-vs-product-driven/](https://inbounddigital.net/digital-marketing-blog/market-driven-vs-product-driven/)
 [https://www.linkedin.com/pulse/product-driven-vs-customer-driven-businesses-paul-miles/](https://www.linkedin.com/pulse/product-driven-vs-customer-driven-businesses-paul-miles/)
+
+### Resources for data scientist to develop business knowledge
+
+[https://fourweekmba.com/](https://fourweekmba.com/)
+[https://towardsdatascience.com/10-reads-for-data-scientists-getting-started-with-business-models-78e6a224fd66](https://towardsdatascience.com/10-reads-for-data-scientists-getting-started-with-business-models-78e6a224fd66)
