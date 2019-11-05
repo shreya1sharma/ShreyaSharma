@@ -34,4 +34,5 @@ It depends on the circumstances. Market driven companies usually benefit from co
 ### Resources for data scientist to develop business knowledge
 
 [https://fourweekmba.com/](https://fourweekmba.com/)
+
 [https://towardsdatascience.com/10-reads-for-data-scientists-getting-started-with-business-models-78e6a224fd66](https://towardsdatascience.com/10-reads-for-data-scientists-getting-started-with-business-models-78e6a224fd66)
