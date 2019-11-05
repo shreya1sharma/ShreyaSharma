@@ -91,11 +91,11 @@ parts which do not fit your common sense
 ### 6. Build upon it
 Your goal to read a paper is to get new ideas and further stimulate new ideas in your mind for your own problem. So after reading the paper, you can do the following things:
 
-  i. If you do not have a problem at hand, find the areas of improvement in the paper.  Which assumptions/limitations can you minimize? Which application you can make with this technique? What problems are yet to be solved?
+* If you do not have a problem at hand, find the areas of improvement in the paper.  Which assumptions/limitations can you minimize? Which application you can make with this technique? What problems are yet to be solved?
   
-  ii. If you have the problem at hand from a different domain, find how this technique can be used in your domain?
+* If you have the problem at hand from a different domain, find how this technique can be used in your domain?
   
-  iii. What’s the author perspective on future work?
+* What’s the author perspective on future work?
   
 ### 7. Formats to save your knowledge
 After reading the paper you must create a system to save your knowledge because in this era of information overload, our memory is highly volatile. I suggest three tools:
