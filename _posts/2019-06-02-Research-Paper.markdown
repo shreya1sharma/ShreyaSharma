@@ -108,3 +108,4 @@ c. Research journal – on-the-go paper reading
 	 
 
 That’s it folks! I hope my 7 tips will make your paper reading process more enjoyable and effective. Do let me know if you have any great suggestion. Let’s grow collaboratively.
+
