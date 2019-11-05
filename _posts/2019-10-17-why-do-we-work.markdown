@@ -10,6 +10,8 @@ Money is one clear big reason but I thought that there must be some deep philoso
 
 Work gives us a purpose in life. It is one of the reasons to wake-up each day and put out our best version to the world. Work enables us to set goals, aligns our body and mind to achieve them and makes us feel satisfied at the end of the day. This sense of purpose and achievement is what makes us work each day. If we do nothing all day, there is a hollowness in our life because we do not grow. We feel lethargic because we do not make any impact on anyone's life. We must understand that there may be some challenges in work, some parts may be boring and some parts may be too difficult but WORK IS IMPORTANT. When we do our work with total engagement and honesty, we respect our-self. We just have to figure out how to make it more interesting and impactful.
 
-So, that’s it. This answer is good for me now and gives peace to my mind :) Hopefully, I won’t get the same thought again. I am inspired to work more today. 
+So, that’s it. This answer is good for me now and gives peace to my mind :) Hopefully, I won’t get the same thought again. I am inspired to work more today!
+
+Have a great day!
 
 
