@@ -107,4 +107,4 @@ b. Powerpoint – same points as in spreadsheet but you can save figure too and 
 c. Research journal – on-the-go paper reading
 	 
 
-That’s it folks! I hope my 7 tips will make your paper reading process more enjoyable and effective. Do let me know if you any great suggestion. Let’s grow collaboratively.
+That’s it folks! I hope my 7 tips will make your paper reading process more enjoyable and effective. Do let me know if you have any great suggestion. Let’s grow collaboratively.
