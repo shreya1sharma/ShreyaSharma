@@ -32,3 +32,4 @@ On 3rd October 2018, I completed two years in my first job as a researcher at NE
 23. Keep a planner for the entire year to plan and track your goals, habits, achievements and anything you want to log.
 24. Do check all your organizational systems per month.
 25. First clearly define your goal and milestones and then start any development/implementation.
+26. Start things passionately with a vision in mind and also complete them beautifully.
