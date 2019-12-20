@@ -10,7 +10,7 @@ Here is a list of my reading resources
 8. [KD Nuggets](https://www.kdnuggets.com/)
 9. [Analytics Vidya](https://analyticsindiamag.com/)
 10. [Computer Vision Magazine](https://www.rsipvision.com/computer-vision-news/)
-11. Follow experts on Twitter
+11. Follow experts on Twitter (need to make a list)
 12. Domain-specific journals
 13. [HBR](https://hbr.org/)
 14. [MIT Technology Review](https://www.technologyreview.com/)
