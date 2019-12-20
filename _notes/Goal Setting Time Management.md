@@ -43,7 +43,7 @@ title: Goal Setting and Time Management
    * Daily memo in office diary
    * Weekly report of office work
    * Filling goal tracker/log in bujo
-   * Reviewing to-do list and calendar each night ad plan next day.
+   * Reviewing to-do list and calendar each night and plan next day.
    * Revieweing quarterly goals in-depth 
    
    **How to set good goals**
@@ -79,5 +79,11 @@ title: Goal Setting and Time Management
    * Phone calls
    * Rest
  
+## Life Management
 
+**Spheres of Life that need management**
+* Career
+* Personal - physical, mental, spiritual
+* Finance/home/family
+* Social
 ---
