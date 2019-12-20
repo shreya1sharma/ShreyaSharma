@@ -77,6 +77,7 @@ title: Goal Setting and Time Management
    * Hobby class
    * Writing
    * Phone calls
+   * Make weekly reading list
    * Rest
  
 ## Life Management
