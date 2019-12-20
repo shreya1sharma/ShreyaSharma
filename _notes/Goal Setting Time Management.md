@@ -56,7 +56,7 @@ title: Goal Setting and Time Management
    * Making food and cleaning
    * Exercise and praying+listening positive
    * Office work - research work, admin work, meetings/exhibitions, reading news-articles-papers
-   * Self-study 
+   * Self-study - course, project, book 
    * Hobbies/entertainment
    * Family
    * Doing nothing
