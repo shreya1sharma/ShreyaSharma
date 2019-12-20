@@ -52,45 +52,32 @@ title: Goal Setting and Time Management
     
    ## Time Management
    
-   **My ideal day contains time for**
+   **My ideal week-day contains time for**
    * Making food and cleaning
-   * Exercise and praying
-   * Office work
+   * Exercise and praying+listening positive
+   * Office work - research work, admin work, meetings/exhibitions, reading news-articles-papers
    * Self-study 
-   * Hobbies
+   * Hobbies/entertainment
    * Family
    * Doing nothing
-   * Commuting and cleaning chores
-   * Doing pending task
-   * Socialize
+   * Commuting 
+   * Doing one pending task
+   * Reading book
+   * Thinking and reflection
    
-  **Time management in office**
-   * real work
-   * admin work
-   * meetings/exhibitions
-   * reading papers/articles
-   
- **Making time for reading**
-Technical
- 1. Research papers
- 2. Tools/techniques/case-studies
-  - Towards data science blog
-  - KD Nuggets
-  - Twitter recommendations
-  - Analytics vidya
-3. Computer vision News magazine
-
-Management 
-1. HBR
-2. Business books 
-
-Self-study
-1. Books
-2. Courses
-3. DS Mini Projects
-
-Fun
-1. Stories
-2. Autobiagraphies
+   **My ideal weekend contains time for**
+   * Socializing
+   * Deep cleaning and home organization
+   * Managing finances
+   * Goal planning and scheduling
+   * Meal prep
+   * Self-care
+   * Deep thinking and reflection
+   * Organizing website/side-hustle
+   * Hobby class
+   * Writing
+   * Phone calls
+   * Rest
+ 
 
 ---
