@@ -41,16 +41,20 @@
   2. Regular check-ins and course sorrection
   3. Agile software development
 
-* Engineering project Triangle - defines quality of a project
+* Engineering project Triangle - used to define quality and analyze a project
   1. Scope - features, functionality, performance quality
   2. Cost - resources, budget
   3. Time - speed
   
   - any project should focus on one of the above
   - a projects constrained on all 3 dimensions often fail
+  - don't build a cool interesting project that nobody wants. A technologist should understand business needs.
+  - it is cheaper to make a change as early as possible. With passage of time, cost of change exponentially rises.
   
 References
 
 [https://www.youtube.com/watch?v=izBAXyYu3C0&t=1047s](https://www.youtube.com/watch?v=izBAXyYu3C0&t=1047s)
 
 [https://www.youtube.com/watch?v=5wMKPk4xQGE](https://www.youtube.com/watch?v=5wMKPk4xQGE)
+
+[https://en.wikipedia.org/wiki/Project_management_triangle](https://en.wikipedia.org/wiki/Project_management_triangle)
