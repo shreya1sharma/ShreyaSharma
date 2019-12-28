@@ -47,7 +47,7 @@
   3. Time - speed
   
   - any project should focus on one of the above
-  - a projects constrained on all 3 dimensions often fail
+  - a project constrained on all 3 dimensions often fail
   - don't build a cool interesting project that nobody wants. A technologist should understand business needs.
   - it is cheaper to make a change as early as possible. With passage of time, cost of change exponentially rises.
   
