@@ -58,3 +58,5 @@ References
 [https://www.youtube.com/watch?v=5wMKPk4xQGE](https://www.youtube.com/watch?v=5wMKPk4xQGE)
 
 [https://en.wikipedia.org/wiki/Project_management_triangle](https://en.wikipedia.org/wiki/Project_management_triangle)
+
+[https://www.youtube.com/watch?v=xrL25lW_is0](https://www.youtube.com/watch?v=xrL25lW_is0) (todo)
