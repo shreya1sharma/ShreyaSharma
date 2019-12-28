@@ -1,3 +1,5 @@
+### Notes on CTO job role
+
 * 4 must-have knowledge for a CTO:
 1. **T**eam Management
 2. **T**ools and techniques
@@ -37,4 +39,5 @@
 References
 
 [https://www.youtube.com/watch?v=izBAXyYu3C0&t=1047s](https://www.youtube.com/watch?v=izBAXyYu3C0&t=1047s)
+
 [https://www.youtube.com/watch?v=5wMKPk4xQGE](https://www.youtube.com/watch?v=5wMKPk4xQGE)
