@@ -41,7 +41,7 @@
   2. Regular check-ins and course sorrection
   3. Agile software development
 
-* Engineering project Triangle
+* Engineering project Triangle - defines quality of a project
   1. Scope - features, functionality, performance quality
   2. Cost - resources, budget
   3. Time - speed
