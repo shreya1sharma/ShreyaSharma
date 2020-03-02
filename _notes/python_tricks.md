@@ -78,7 +78,8 @@ video.release()
 </details>
 
 <details>
-<summary> * Unzip a directory</summary> 
+<summary> Unzip a directory</summary> 
+	
 ```python
 import zipfile
 with zipfile.ZipFile(path_to_zip_file, 'r') as zip_ref:
