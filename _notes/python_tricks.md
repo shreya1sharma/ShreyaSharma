@@ -77,10 +77,9 @@ video.release()
 ```
 </details>
 
-Unzip a directory
+* Unzip a directory
 ```python
 import zipfile
 with zipfile.ZipFile(path_to_zip_file, 'r') as zip_ref:
     zip_ref.extractall(path_to_save_at)
-
 ```
