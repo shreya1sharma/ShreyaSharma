@@ -96,3 +96,25 @@ for i in tqdm(range(10)):
     print('hi')
 ```
 </details>
+
+<details>
+<summary> Iterating over an iterator of unknown lenght using next()</summary> 
+	
+```python
+# Python code to demonstrate 
+# working of next() 
+list1 = [1, 2, 3, 4, 5]  
+# converting list to iterator 
+list1 = iter(list1)  
+print ("The contents of list are : ") 
+# printing using next() 
+# using default 
+while (1) : 
+    val = next(list1,'end') 
+    if val == 'end': 
+        print ('list end') 
+        break
+    else : 
+        print (val) 
+```
+</details>
