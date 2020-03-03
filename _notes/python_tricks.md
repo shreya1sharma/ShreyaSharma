@@ -86,3 +86,12 @@ with zipfile.ZipFile(path_to_zip_file, 'r') as zip_ref:
     zip_ref.extractall(path_to_save_at)
 ```
 </details>
+
+<details>
+<summary> Progress bar in python</summary> 
+```python
+from tqdm import tqdm
+for i in tqdm(range(10)):
+    print('hi')
+```
+</details>
