@@ -89,6 +89,7 @@ with zipfile.ZipFile(path_to_zip_file, 'r') as zip_ref:
 
 <details>
 <summary> Progress bar in python</summary> 
+	
 ```python
 from tqdm import tqdm
 for i in tqdm(range(10)):
