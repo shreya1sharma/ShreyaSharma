@@ -64,3 +64,8 @@ mv SOURCE DIRECTORY\
 mv file1.pdf FILE1.pdf    #to rename a file
 mv file.pdf temp          #to copy the pdf to directory temp
 ```
+**apt-get**: to install or remove packages from linux
+- syntax:\
+sudo apt-get install
+
+**nvidia-smi -L**: This command shows the list of GPUs present on your machine. 
