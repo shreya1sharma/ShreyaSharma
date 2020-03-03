@@ -98,7 +98,7 @@ for i in tqdm(range(10)):
 </details>
 
 <details>
-<summary> Iterating over an iterator of unknown lenght using next()</summary> 
+<summary> Iterating over an iterator of unknown length using next()</summary> 
 	
 ```python
 # Python code to demonstrate 
