@@ -57,7 +57,7 @@ rm -r *              #VERY DANGEROUS!!! This will delete every file and every di
 
 **mv**: to move a file from one directory location to another. It also lets you rename a file 
 - syntax:\
-mv [OPTION] old_filename new_filename
+mv [OPTION] old_filename new_filename\
 mv SOURCE DIRECTORY\
 - example:
 ```bash
@@ -66,6 +66,6 @@ mv file.pdf temp          #to copy the pdf to directory temp
 ```
 **apt-get**: to install or remove packages from linux
 - syntax:\
-sudo apt-get install
+sudo apt-get install PACKAGE_NAME
 
 **nvidia-smi -L**: This command shows the list of GPUs present on your machine. 
