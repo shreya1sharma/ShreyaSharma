@@ -118,3 +118,59 @@ while (1) :
         print (val) 
 ```
 </details>
+
+<details>
+<summary> Creating patches from images</summary> 
+```python
+# over-lapping patches - 1) extract_patches_2d (single image), 2) Patch_Extractor (many images)
+# https://scikit-learn.org/stable/modules/feature_extraction.html#image-feature-extraction
+
+patch_size = 64
+patches = image.extract_patches_2d(arr, (patch_size, patch_size))
+patches = image.PatchExtractor((patch_size, patch_size)).transform(arr)
+
+# non- overlapping patches - 1) view_as_blocks, 2) blockfy
+
+def blockfy(a, p, q):
+    '''
+    Divides array a into subarrays of size p-by-q
+    p: block row size
+    q: block column size
+    '''
+    m = a.shape[0]  #image row size
+    n = a.shape[1]  #image column size
+
+    # pad array with NaNs so it can be divided by p row-wise and by q column-wise
+    bpr = ((m-1)//p + 1) #blocks per row
+    bpc = ((n-1)//q + 1) #blocks per column
+    M = p * bpr
+    N = q * bpc
+
+    A = np.nan* np.ones([M,N])
+    A[:a.shape[0],:a.shape[1]] = a
+
+    block_list = []
+    previous_row = 0
+    for row_block in range(bpc):
+        previous_row = row_block * p   
+        previous_column = 0
+        for column_block in range(bpr):
+            previous_column = column_block * q
+            block = A[previous_row:previous_row+p, previous_column:previous_column+q]
+
+            # remove nan columns and nan rows
+            nan_cols = np.all(np.isnan(block), axis=0)
+            block = block[:, ~nan_cols]
+            nan_rows = np.all(np.isnan(block), axis=1)
+            block = block[~nan_rows, :]
+
+            ## append
+            if block.size:
+                block_list.append(block)
+
+    return block_list
+block = blockfy(arr, patch_size, patch_size)
+
+from sklearn.utils import view_as_blocks # https://scikit-image.org/docs/dev/api/skimage.util.html#skimage.util.view_as_blocks
+block = view_as_blocks(arr,( patch_size, patch_size))
+```
