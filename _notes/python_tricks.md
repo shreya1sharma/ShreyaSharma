@@ -121,16 +121,19 @@ while (1) :
 
 <details>
 <summary> Creating patches from images</summary> 
+	
 ```python
 # over-lapping patches - 1) extract_patches_2d (single image), 2) Patch_Extractor (many images)
 # https://scikit-learn.org/stable/modules/feature_extraction.html#image-feature-extraction
 
+from sklearn.feature_extraction import image
 patch_size = 64
 patches = image.extract_patches_2d(arr, (patch_size, patch_size))
 patches = image.PatchExtractor((patch_size, patch_size)).transform(arr)
 
-# non- overlapping patches - 1) view_as_blocks, 2) blockfy
+# non- overlapping patches - 1) blockfy (custom function), 2) view_as_blocks (skimage function) 
 
+#method 1
 def blockfy(a, p, q):
     '''
     Divides array a into subarrays of size p-by-q
@@ -169,8 +172,11 @@ def blockfy(a, p, q):
                 block_list.append(block)
 
     return block_list
-block = blockfy(arr, patch_size, patch_size)
 
+# Usage:
+patches = blockfy(train[i], patch_size, patch_size)
+
+#method 2
 from sklearn.utils import view_as_blocks # https://scikit-image.org/docs/dev/api/skimage.util.html#skimage.util.view_as_blocks
-block = view_as_blocks(arr,( patch_size, patch_size))
+patches = view_as_blocks(arr,(patch_size, patch_size))
 ```
