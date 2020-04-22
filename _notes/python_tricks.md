@@ -131,9 +131,8 @@ patch_size = 64
 patches = image.extract_patches_2d(arr, (patch_size, patch_size))
 patches = image.PatchExtractor((patch_size, patch_size)).transform(arr)
 
-# non- overlapping patches - 1) blockfy (custom function), 2) view_as_blocks (skimage function) 
-
-#method 1
+# non- overlapping patches 
+#method 1: blockfy (custom function)
 def blockfy(a, p, q):
     '''
     Divides array a into subarrays of size p-by-q
@@ -176,7 +175,7 @@ def blockfy(a, p, q):
 # Usage:
 patches = blockfy(train[i], patch_size, patch_size)
 
-#method 2
+#method 2 : view_as_blocks (skimage function), comment out size assert error if patch size is not evenly divided
 from sklearn.utils import view_as_blocks # https://scikit-image.org/docs/dev/api/skimage.util.html#skimage.util.view_as_blocks
 patches = view_as_blocks(arr,(patch_size, patch_size))
 ```
