@@ -58,7 +58,8 @@ title: Coding Practices
 5. Celebrate :)
 
 **Reference**
-1. https://www.thoughtworks.com/insights/blog/coding-habits-data-scientists
+1. [https://www.thoughtworks.com/insights/blog/coding-habits-data-scientists](https://www.thoughtworks.com/insights/blog/coding-habits-data-scientists)
+2. Pep-8 style guide summary- [https://tandysony.com/2018/02/14/pep-8.html](https://tandysony.com/2018/02/14/pep-8.html)
 
 
 **To-do**
