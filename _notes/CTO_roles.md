@@ -1,3 +1,9 @@
+---
+layout: page 
+title: CTO Role
+
+---
+
 ### Notes on CTO job role
 
 * 4 must-have knowledge for a CTO:

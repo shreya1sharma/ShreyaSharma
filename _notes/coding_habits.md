@@ -1,3 +1,8 @@
+---
+layout: page 
+title: Coding Practices
+
+---
 ## A. Best Coding Habits
 1. Keep Code Clean
     1. Design- 
