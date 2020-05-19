@@ -1,12 +1,12 @@
 ### Google
 - Believes that a successful industry requires a portfolio of projects with time horizons, levels of risk and goals appropriate for the organization.
-- Goal is to create a research environment rich in opprotunities fir produc timpact, build a product environment that actively benefits from research and to provide
+- Goal is to create a research environment rich in opprotunities for product timpact, build a product environment that actively benefits from research and to provide
 our staff the freedom to work on important research problems that are not tied to immediate product needs.
 - The research projects are divided into 4 categories:
   1) **Basic research and fundamental applied research**
     - successful outcomes are better technology, useful theories or new discoveries
     - establish new benchmarks 
-    - not firectly tied to existing products
+    - not directly tied to existing products
   2) **New product innovation**
     - develop new proiducts or biz that require substantial research
     - short-term success measures are demos, prototypes or pilots that prove user/customer utility
