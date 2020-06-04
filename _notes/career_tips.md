@@ -14,8 +14,8 @@ title: Career Tips
 5. create a web app (using Flask, or some other Python-based web dev framework). Ideally, you should be able to approach someone at a Meetup or during an interview, and have them try out a few input parameters, or play with a few knobs, and have some (ideally visually appealing) result returned to them.
 6. To make your project pitch compelling, make sure you have a story to tell about what you’ve built. Ideally, that story should include one or two unexpected insights you gained during your data exploration or model evaluation phase (e.g. “it turns out this class is really hard to tell apart from this other class because [reasons]”).
 This helps you out because it:
-- Weaves a narrative around your project that’s easier (and more interesting) for interviewers to remember; and
-- Makes it clear that you’re someone who makes a point of getting to the bottom of your data science problems.
+	- Weaves a narrative around your project that’s easier (and more interesting) for interviewers to remember; and
+	- Makes it clear that you’re someone who makes a point of getting to the bottom of your data science problems.
 
 [Interview with Data Scientist at kaggle: Dr. Rachael Tatman](https://hackernoon.com/interview-with-data-scientist-at-kaggle-dr-rachael-tatman-8bc61f9efdb9)
 1. Work on self projects, and not just Kaggle- this well help to self- learn data cleaning, annotation, design performance metric and what is the business value of your model
