@@ -72,11 +72,12 @@ This helps you out because it:
 1. **Programming language** - R, python. You dont have to be a master in these. Just familiar enough that you can research your own questions, tackle coding issues and debug your own code without much help.
 2. **Core machine learning algorithms** - Regression, Naive Bayes, SVM, and random forests. Focus on core skills like evaluating machine learning classifiers and understanding the types of classification errors that are most important to the client. Understand how to compare various machine learning algorithms, and to have the ability to choose the correct parameters for models. 
 3. **Develop the skill to ask right questions**: data intution, ask the right set of questions to get the most out of your data
-4. **Problem-solving skills**: translating your client needs into a concrete problem and breaking it down into a series of steps that lead to a solution. A problem solving way is :
+4. **Problem-solving and critical thinking skills**: translating your client needs into a concrete problem and breaking it down into a series of steps that lead to a solution. Ask 'why' at each stage of your datascience process. A problem solving way is :
 - Understand the problem, it’s significance, and what effect/change it will inspire.
 - Figure out where to find the data. If it doesn’t exist in a usable form, figure out how to collect it.
 - Look for trends and identify variables or features that best explain the outcome
 - Research different methods to fit a model to the data to successfully predict or explain the outcome.
 - Verify that the model fits the data well and predicts the outcome based on the business case.
--Communicate your findings to the stakeholder such that they are able to understand the big picture impact of your solution.
+- Communicate your findings to the stakeholder such that they are able to understand the big picture impact of your solution.
 5. **Communicaltion skills**: tell a compelling story to engage the client and eventually lead them to implement your recommendations. Most clients do not speak data; they speak revenue, marketing, sales, or product. It’s your job as a data scientist to translate technical scientific matters into business context.
+
