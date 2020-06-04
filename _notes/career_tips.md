@@ -1,6 +1,6 @@
 ---
 layout : page
-title: Project Tips
+title: Career Tips
 ---
 
 
