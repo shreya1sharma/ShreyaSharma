@@ -81,3 +81,11 @@ This helps you out because it:
 - Communicate your findings to the stakeholder such that they are able to understand the big picture impact of your solution.
 5. **Communicaltion skills**: tell a compelling story to engage the client and eventually lead them to implement your recommendations. Most clients do not speak data; they speak revenue, marketing, sales, or product. It’s your job as a data scientist to translate technical scientific matters into business context.
 
+[The scientific method of thinking](https://www.youtube.com/watch?v=N6IAzlugWw0)
+1. Problem/observation
+2. Ask question why?
+3. Testable explanation (hypothesis)
+4. Experiment (control group and variations)
+5. Test Hypothesis
+6. Make conclusions
+7. Refine/iterate and repeat
