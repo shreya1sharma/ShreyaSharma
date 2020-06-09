@@ -37,3 +37,39 @@ for a project.
 2. Revise goals and schedules based on regular reviews
 3. Keep buffer time
 4. Have back-up plans
+
+
+### Minimal project management requirements
+
+1. Project Name
+2. Project Duration (by when)
+3. Participants/stakeholders
+4. Goal (what)
+5. Short Description (why)
+6. Customer
+7. KPI - business KPI, Science KPI
+8. Target KPI (impact)- must be quantifiable
+9. Milestones (how)
+10. Tasks and initiatives (how)
+
+**KPI examples:**
+1. Business KPI- 
+- number of features
+- delivery of tool
+- cost reduction
+- GMS lift, CTR
+- CVR improvement on A/B testing
+- API
+
+2. Science KPI-
+- performance metric - accruacy, f-score, error rate
+- computation time
+- #papers
+- #patents
+- #academic collborations
+
+**OKR**
+[https://felipecastro.com/en/okr/what-is-okr/](https://felipecastro.com/en/okr/what-is-okr/)
+
+
+
