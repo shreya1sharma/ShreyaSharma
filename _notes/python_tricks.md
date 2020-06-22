@@ -179,6 +179,7 @@ patches = blockfy(train[i], patch_size, patch_size)
 from sklearn.utils import view_as_blocks # https://scikit-image.org/docs/dev/api/skimage.util.html#skimage.util.view_as_blocks
 patches = view_as_blocks(arr,(patch_size, patch_size))
 ```
+</details>
 
 <details>
 <summary> Storing a large array as hdf5 file </summary>
@@ -202,7 +203,6 @@ list(f2.keys())
 dset1 = f2['dataset_1']
 data = dset1[:]
 list(dset1.attrs.keys())
-
 ```
-
+https://www.science-emergence.com/Articles/How-to-save-a-large-dataset-in-a-hdf5-file-using-python--Quick-Guide/
 </details>
