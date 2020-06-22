@@ -204,5 +204,12 @@ dset1 = f2['dataset_1']
 data = dset1[:]
 list(dset1.attrs.keys())
 ```
-https://www.science-emergence.com/Articles/How-to-save-a-large-dataset-in-a-hdf5-file-using-python--Quick-Guide/
+[https://www.science-emergence.com/Articles/How-to-save-a-large-dataset-in-a-hdf5-file-using-python--Quick-Guide/(https://www.science-emergence.com/Articles/How-to-save-a-large-dataset-in-a-hdf5-file-using-python--Quick-Guide/)
+</details>
+
+<details>
+	<summary>Flatten a list of lists in python</summary>
+	
+	```python
+	flat_list = [item for sublist in l for item in sublist]
 </details>
