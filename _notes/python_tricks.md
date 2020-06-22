@@ -197,7 +197,7 @@ dset1.attrs['scale'] = 0.01
 # close hdf5 file
 f1.close()
 # read hdf5 file
-f2 = h5py.File('broad_data.hdf5', 'r')
+f2 = h5py.File('data.hdf5', 'r')
 list(f2.keys())
 # retrieve data
 dset1 = f2['dataset_1']
