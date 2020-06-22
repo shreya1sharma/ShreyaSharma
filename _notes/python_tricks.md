@@ -208,7 +208,7 @@ list(dset1.attrs.keys())
 </details>
 
 <details>
-<summary>Flatten a list of lists in python</summary>
+<summary> Flatten a list of lists in python</summary>
 	
 ```python	
 flat_list = [item for sublist in l for item in sublist]
