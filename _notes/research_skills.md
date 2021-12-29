@@ -127,3 +127,17 @@ That’s it folks. I hope my 7 tips will make your paper reading process more en
   -	This section is optional. You can share some interesting research papers or news articles.
 
 </details> 
+
+<details>
+<summary> Summary of F19 blog posts of ML@CMU </summary>
+
+</details> 
+
+Useful Links
+
+1. [https://researchdatapod.com/9-best-tips-for-early-career-data-research-scientists/](9 Best Tips For Early Career Research Focused Data Scientists)
+2. [http://colah.github.io/notes/taste/](Research Taste Exercises)
+3. [https://www.youtube.com/watch?v=fxbCHn6gE3U&t=32s](The surprising habits of original thinkers | Adam Grant)
+4. [https://maithraraghu.com/blog/2020/Reflections_on_my_Machine_Learning_PhD_Journey/](Reflections on my Machine Learning PhD Journey)
+5. [https://www.youtube.com/watch?v=N6IAzlugWw0&t=5s](The Scientific Method)
+6. [https://pakodas.substack.com/p/a-data-scientist-without-a-phd](A Data Scientist Without A PhD)

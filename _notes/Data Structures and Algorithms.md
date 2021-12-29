@@ -154,6 +154,5 @@ def delete(hash_table, key, value):
 - keywords: key -> hashing function -> hash value -> index/slot -> hash table -> store key and value at the index
 - keys and values can be stored in array (search time O(n)), linked list (search time O(n)), binary search tree (search time O(nlogn))
 
-- next
 ---
 
