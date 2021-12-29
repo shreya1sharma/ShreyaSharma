@@ -4,7 +4,7 @@ title: CV
 permalink: /resume/
 ---
 
-Please download 1-page résumé [here]({{site.url}}{{site.baseurl}}/assets/docs/shreya_cv.pdf)
+Please download 1-page cv [here]({{site.url}}{{site.baseurl}}/assets/docs/shreya_cv.pdf)
 ### Areas of Interest
 -----------------
 Deep Learning | Machine Learning | Image Processing | Computer Vision | Geospatial Analytics
